@@ -21,7 +21,7 @@ class ShabbosMaker:
     def take_baths(self, soap):
         print(self.name, "is showering her kids with ", soap, ' ', self.time2, "before Shabbos.")    
 
-# create an instance of seamstress
+# create an instance of Shabbos maker
 
 def main():
     my_shabbos_maker = ShabbosMaker("a day ", "3 hours", "seminary girl")
