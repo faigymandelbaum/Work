@@ -2,21 +2,21 @@
 class Rectangle:
 
     def __init__(self, length, width):
-        self.__length = length
-        self.__width = width
+        self.length = length
+        self.width = width
 
     @property
     def length(self):
-        return self.__length
+        return self._length
 
     @length.setter
     def length(self, value):
-        self.__length = int(value) 
+        self._length = int(value) 
 
     @property
     def width(self):
-        return self.__width
+        return self._width
 
     @width.setter
     def width(self, value):
-        self.__width = int(value)            
+        self._width = int(value)            

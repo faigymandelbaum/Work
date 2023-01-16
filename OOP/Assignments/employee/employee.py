@@ -1,26 +1,26 @@
 class Employee:
 
     def __init__(self, emp_name, dept):
-        self.__name = emp_name
-        self.__department = dept
+        self.name = emp_name
+        self.department = dept
 
     @property
     def name(self):
-        return self.__name.upper()
+        return self._name.upper()
 
     @name.setter
     def name(self, value):
         if value.isdigit():
-            self.__name = ""
+            self._name = ""
         else:
-            self.__name = value        
+            self._name = value        
 
     @property
     def department(self):
-        return self.__department
+        return self._department
 
     @department.setter
     def department(self, value):
-        self.__department = value     
+        self._department = value     
 
 
