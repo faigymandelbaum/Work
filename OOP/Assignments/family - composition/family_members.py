@@ -16,4 +16,7 @@ class FamilyMember:
         else:
             self._is_parent = False
 
+    def __str__(self):
+        return "my name is {} and I am {} years old.".format(self.first_name, self.age)        
+
 

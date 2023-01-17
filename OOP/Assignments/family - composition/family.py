@@ -8,7 +8,7 @@ class Family:
 
     def __str__(self):
         f = "Family {} lives in {}. \nThey are famous for {}!".format(self.last_name, self.home_address, self.famous_for)
-        f += "\nThere family members are:"
+        f += "\nTheir family members are:"
         for member in self.family_members:
             if member.is_parent == True:
                 f += "\nparent: {} is {} years old.".format(member.first_name, member.age)
