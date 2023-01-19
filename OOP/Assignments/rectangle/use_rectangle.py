@@ -3,7 +3,7 @@ from rectangle import Rectangle
 
 def main():
 
-    small_rectangle = Rectangle(5, 2)
+    small_rectangle = Rectangle(6, 9)
 
     small_rectangle.length = input("put in length: ")
     small_rectangle.width = input("put in width: ")
