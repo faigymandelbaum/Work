@@ -4,6 +4,25 @@
 import math
 import pandas as pd
 from concurrent.futures import ProcessPoolExecutor
+import time
+
+def make_chunks(df, num_chunks):
+    num_rows = df.shape[0]
+    chunk_size = math.ceil(num_rows / num_chunks)
+
+    chunks = []
+    for i in range(0, num_rows, chunk_size):
+        chunk = df[i:i + chunk_size]
+        chunks.append(chunk)
+    
+    return chunks
+
+def count_categories(df, categories):
+    apps_in_categories = {}
+    for category_name in categories:
+        apps_in_categories[category_name] = df['Category'].str.count(category_name).sum()
+
+    return apps_in_categories
 
 def create_count_for_column(df_path, column_name):
     dict = {}
@@ -16,28 +35,11 @@ def create_count_for_column(df_path, column_name):
 
 def main():
 
-    def make_chunks(df, num_chunks):
-        num_rows = df.shape[0]
-        chunk_size = math.ceil(num_rows / num_chunks)
-
-        chunks = []
-        for i in range(0, num_rows, chunk_size):
-            chunk = df[i:i + chunk_size]
-            chunks.append(chunk)
-        
-        return chunks
-
-    def count_categories(df, categories):
-        apps_in_categories = {}
-
-        for category_name in categories:
-            apps_in_categories[category_name] = df['Category'].str.count(category_name).sum()
-
-        return apps_in_categories
+    start = time.time()
 
     store_play = pd.read_csv('googleplaystore.csv')
     categories = store_play['Category'].unique()
-    sp_chunks = make_chunks((store_play), 4)
+    sp_chunks = make_chunks(store_play, 4)
 
     processes = []
     with ProcessPoolExecutor() as exe:
@@ -56,17 +58,16 @@ def main():
 
     print(merged_results)
 
+    end = time.time()
+    multiprocess_time = end - start
+    print ('multiprocess_time: ', multiprocess_time)
+if __name__ == '__main__':
+        main()
+
 # Timing both functions
 import time
 start = time.time()
 create_count_for_column('googleplaystore.csv', 'Category')
 end = time.time()
-sequential_time = end - start
-
-start = time.time()
-if __name__ == '__main__':
-    main()
-end = time.time()
-multiprocess_time = end - start
-
-print ('sequential_time :', sequential_time, '\nmultiprocess_time: ', multiprocess_time)
+sequential_time = end - start  
+print ('sequential time: ', sequential_time)  

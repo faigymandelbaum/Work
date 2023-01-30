@@ -1,5 +1,6 @@
 import multiprocessing
 import pandas as pd
+import time
 
 def create_count_for_column(df_path, column_name):
     dict = {}
@@ -10,6 +11,14 @@ def create_count_for_column(df_path, column_name):
     return dict    
 
 print (create_count_for_column('googleplaystore.csv', 'Category'))
+
+start = time.time()
+create_count_for_column('googleplaystore.csv', 'Category')
+end = time.time()
+time1 = end - start
+print(time1)
+
+
 
 
 
