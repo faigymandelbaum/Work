@@ -1,0 +1,7 @@
+13:32:37,243 root INFO got the families. now getting the halls and colors
+13:33:17,462 root INFO got the families. now getting the halls and colors
+13:34:22,472 root INFO got the families. now getting the halls and colors
+13:36:31,764 root ERROR cannot load wedding file: c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Wedding Planner/info/familie.csv
+13:36:31,764 root ERROR We loaded the family file successfully but it came in empty
+13:36:31,764 root ERROR Families did not load
+13:36:31,764 root ERROR not booking halls or choosing colors because there are no families loaded

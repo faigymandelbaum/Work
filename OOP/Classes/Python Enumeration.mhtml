@@ -1,0 +1,2698 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.pythontutorial.net/python-oop/python-enumeration/
+Subject: Python Enumeration
+Date: Sun, 22 Jan 2023 19:30:12 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----"
+
+
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/html
+Content-ID: <frame-7F2878A28291247811DCD9ABA17BA739@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.pythontutorial.net/python-oop/python-enumeration/
+
+<!DOCTYPE html><html lang=3D"en-US" data-theme=3D"light" class=3D" wizmage-=
+show-html wizmage-running"><head><meta http-equiv=3D"Content-Type" content=
+=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" =
+href=3D"cid:css-d9786cc2-0d3e-4715-a73d-492833fb7de1@mhtml.blink" /><link r=
+el=3D"stylesheet" type=3D"text/css" href=3D"cid:css-dbd414ef-b307-4cd0-bb1d=
+-3a04cb20bf33@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hre=
+f=3D"cid:css-3c66a328-a1ed-43c1-a214-6f45a75b7e6e@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-bc7c9726-bfbd-454a-9fbe-b=
+56c7843f663@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-039aeff4-1772-4cde-b365-39075476bcc4@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ff9fdaf2-2e5d-4933-9b71-c=
+d8b639fbd79@mhtml.blink" /><meta name=3D"viewport" content=3D"width=3Ddevic=
+e-width, initial-scale=3D1">  <meta name=3D"robots" content=3D"index, follo=
+w, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><link med=
+ia=3D"print" href=3D"https://www.pythontutorial.net/wp-content/cache/autopt=
+imize/css/autoptimize_b5360d8fe28af112b0854d10ad4c9c05.css" rel=3D"styleshe=
+et"><link rel=3D"stylesheet" media=3D"all" href=3D"https://www.pythontutori=
+al.net/wp-content/cache/autoptimize/css/autoptimize_894aa3d55917add5d3225aa=
+057575ed5.css"><title>Python Enumeration</title><link rel=3D"canonical" hre=
+f=3D"https://www.pythontutorial.net/python-oop/python-enumeration/"><meta p=
+roperty=3D"og:locale" content=3D"en_US"><meta property=3D"og:type" content=
+=3D"article"><meta property=3D"og:title" content=3D"Python Enumeration"><me=
+ta property=3D"og:description" content=3D"Summary: in this tutorial, you=E2=
+=80=99ll learn about Python enumeration and how to use it effectively. Intr=
+oduction to the Python Enumeration By definition, an enumeration is a set o=
+f members that have associated unique constant values. Enumeration is often=
+ called enum. Python provides you with the enum module that contains the En=
+um type for defining new [=E2=80=A6]"><meta property=3D"og:url" content=3D"=
+https://www.pythontutorial.net/python-oop/python-enumeration/"><meta proper=
+ty=3D"og:site_name" content=3D"Python Tutorial - Master Python Programming =
+For Beginners from Scratch"><meta property=3D"article:modified_time" conten=
+t=3D"2021-11-15T07:14:20+00:00"><meta name=3D"twitter:card" content=3D"summ=
+ary_large_image"><meta name=3D"twitter:label1" content=3D"Est. reading time=
+"><meta name=3D"twitter:data1" content=3D"5 minutes">  <link rel=3D"https:/=
+/api.w.org/" href=3D"https://www.pythontutorial.net/wp-json/"><link rel=3D"=
+alternate" type=3D"application/json" href=3D"https://www.pythontutorial.net=
+/wp-json/wp/v2/pages/2908"><link rel=3D"EditURI" type=3D"application/rsd+xm=
+l" title=3D"RSD" href=3D"https://www.pythontutorial.net/xmlrpc.php?rsd"><li=
+nk rel=3D"wlwmanifest" type=3D"application/wlwmanifest+xml" href=3D"https:/=
+/www.pythontutorial.net/wp-includes/wlwmanifest.xml"><meta name=3D"generato=
+r" content=3D"WordPress 6.1.1"><link rel=3D"shortlink" href=3D"https://www.=
+pythontutorial.net/?p=3D2908"><link rel=3D"alternate" type=3D"application/j=
+son+oembed" href=3D"https://www.pythontutorial.net/wp-json/oembed/1.0/embed=
+?url=3Dhttps%3A%2F%2Fwww.pythontutorial.net%2Fpython-oop%2Fpython-enumerati=
+on%2F"><link rel=3D"alternate" type=3D"text/xml+oembed" href=3D"https://www=
+.pythontutorial.net/wp-json/oembed/1.0/embed?url=3Dhttps%3A%2F%2Fwww.python=
+tutorial.net%2Fpython-oop%2Fpython-enumeration%2F&amp;format=3Dxml">     <l=
+ink rel=3D"icon" href=3D"https://www.pythontutorial.net/wp-content/uploads/=
+2020/09/cropped-favicon-32x32.png" sizes=3D"32x32"><link rel=3D"icon" href=
+=3D"https://www.pythontutorial.net/wp-content/uploads/2020/09/cropped-favic=
+on-192x192.png" sizes=3D"192x192"><link rel=3D"apple-touch-icon" href=3D"ht=
+tps://www.pythontutorial.net/wp-content/uploads/2020/09/cropped-favicon-180=
+x180.png"><meta name=3D"msapplication-TileImage" content=3D"https://www.pyt=
+hontutorial.net/wp-content/uploads/2020/09/cropped-favicon-270x270.png"></h=
+ead><body class=3D"page-template-default page page-id-2908 page-child paren=
+t-pageid-417"> <svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 0 0=
+" width=3D"0" height=3D"0" focusable=3D"false" role=3D"none" style=3D"visib=
+ility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs>=
+<filter id=3D"wp-duotone-dark-grayscale"><feColorMatrix color-interpolation=
+-filters=3D"sRGB" type=3D"matrix" values=3D" .299 .587 .114 0 0 .299 .587 .=
+114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponen=
+tTransfer color-interpolation-filters=3D"sRGB"><feFuncR type=3D"table" tabl=
+eValues=3D"0 0.49803921568627"></feFuncR><feFuncG type=3D"table" tableValue=
+s=3D"0 0.49803921568627"></feFuncG><feFuncB type=3D"table" tableValues=3D"0=
+ 0.49803921568627"></feFuncB><feFuncA type=3D"table" tableValues=3D"1 1"></=
+feFuncA></feComponentTransfer><feComposite in2=3D"SourceGraphic" operator=
+=3D"in"></feComposite></filter></defs></svg><svg xmlns=3D"http://www.w3.org=
+/2000/svg" viewBox=3D"0 0 0 0" width=3D"0" height=3D"0" focusable=3D"false"=
+ role=3D"none" style=3D"visibility: hidden; position: absolute; left: -9999=
+px; overflow: hidden;"><defs><filter id=3D"wp-duotone-grayscale"><feColorMa=
+trix color-interpolation-filters=3D"sRGB" type=3D"matrix" values=3D" .299 .=
+587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></f=
+eColorMatrix><feComponentTransfer color-interpolation-filters=3D"sRGB"><feF=
+uncR type=3D"table" tableValues=3D"0 1"></feFuncR><feFuncG type=3D"table" t=
+ableValues=3D"0 1"></feFuncG><feFuncB type=3D"table" tableValues=3D"0 1"></=
+feFuncB><feFuncA type=3D"table" tableValues=3D"1 1"></feFuncA></feComponent=
+Transfer><feComposite in2=3D"SourceGraphic" operator=3D"in"></feComposite><=
+/filter></defs></svg><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0=
+ 0 0 0" width=3D"0" height=3D"0" focusable=3D"false" role=3D"none" style=3D=
+"visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">=
+<defs><filter id=3D"wp-duotone-purple-yellow"><feColorMatrix color-interpol=
+ation-filters=3D"sRGB" type=3D"matrix" values=3D" .299 .587 .114 0 0 .299 .=
+587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feCom=
+ponentTransfer color-interpolation-filters=3D"sRGB"><feFuncR type=3D"table"=
+ tableValues=3D"0.54901960784314 0.98823529411765"></feFuncR><feFuncG type=
+=3D"table" tableValues=3D"0 1"></feFuncG><feFuncB type=3D"table" tableValue=
+s=3D"0.71764705882353 0.25490196078431"></feFuncB><feFuncA type=3D"table" t=
+ableValues=3D"1 1"></feFuncA></feComponentTransfer><feComposite in2=3D"Sour=
+ceGraphic" operator=3D"in"></feComposite></filter></defs></svg><svg xmlns=
+=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 0 0" width=3D"0" height=3D"0=
+" focusable=3D"false" role=3D"none" style=3D"visibility: hidden; position: =
+absolute; left: -9999px; overflow: hidden;"><defs><filter id=3D"wp-duotone-=
+blue-red"><feColorMatrix color-interpolation-filters=3D"sRGB" type=3D"matri=
+x" values=3D" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299=
+ .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-f=
+ilters=3D"sRGB"><feFuncR type=3D"table" tableValues=3D"0 1"></feFuncR><feFu=
+ncG type=3D"table" tableValues=3D"0 0.27843137254902"></feFuncG><feFuncB ty=
+pe=3D"table" tableValues=3D"0.5921568627451 0.27843137254902"></feFuncB><fe=
+FuncA type=3D"table" tableValues=3D"1 1"></feFuncA></feComponentTransfer><f=
+eComposite in2=3D"SourceGraphic" operator=3D"in"></feComposite></filter></d=
+efs></svg><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 0 0" wid=
+th=3D"0" height=3D"0" focusable=3D"false" role=3D"none" style=3D"visibility=
+: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filt=
+er id=3D"wp-duotone-midnight"><feColorMatrix color-interpolation-filters=3D=
+"sRGB" type=3D"matrix" values=3D" .299 .587 .114 0 0 .299 .587 .114 0 0 .29=
+9 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer c=
+olor-interpolation-filters=3D"sRGB"><feFuncR type=3D"table" tableValues=3D"=
+0 0"></feFuncR><feFuncG type=3D"table" tableValues=3D"0 0.64705882352941"><=
+/feFuncG><feFuncB type=3D"table" tableValues=3D"0 1"></feFuncB><feFuncA typ=
+e=3D"table" tableValues=3D"1 1"></feFuncA></feComponentTransfer><feComposit=
+e in2=3D"SourceGraphic" operator=3D"in"></feComposite></filter></defs></svg=
+><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 0 0" width=3D"0" =
+height=3D"0" focusable=3D"false" role=3D"none" style=3D"visibility: hidden;=
+ position: absolute; left: -9999px; overflow: hidden;"><defs><filter id=3D"=
+wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters=3D"sR=
+GB" type=3D"matrix" values=3D" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .=
+587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer colo=
+r-interpolation-filters=3D"sRGB"><feFuncR type=3D"table" tableValues=3D"0.7=
+8039215686275 1"></feFuncR><feFuncG type=3D"table" tableValues=3D"0 0.94901=
+960784314"></feFuncG><feFuncB type=3D"table" tableValues=3D"0.3529411764705=
+9 0.47058823529412"></feFuncB><feFuncA type=3D"table" tableValues=3D"1 1"><=
+/feFuncA></feComponentTransfer><feComposite in2=3D"SourceGraphic" operator=
+=3D"in"></feComposite></filter></defs></svg><svg xmlns=3D"http://www.w3.org=
+/2000/svg" viewBox=3D"0 0 0 0" width=3D"0" height=3D"0" focusable=3D"false"=
+ role=3D"none" style=3D"visibility: hidden; position: absolute; left: -9999=
+px; overflow: hidden;"><defs><filter id=3D"wp-duotone-purple-green"><feColo=
+rMatrix color-interpolation-filters=3D"sRGB" type=3D"matrix" values=3D" .29=
+9 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">=
+</feColorMatrix><feComponentTransfer color-interpolation-filters=3D"sRGB"><=
+feFuncR type=3D"table" tableValues=3D"0.65098039215686 0.40392156862745"></=
+feFuncR><feFuncG type=3D"table" tableValues=3D"0 1"></feFuncG><feFuncB type=
+=3D"table" tableValues=3D"0.44705882352941 0.4"></feFuncB><feFuncA type=3D"=
+table" tableValues=3D"1 1"></feFuncA></feComponentTransfer><feComposite in2=
+=3D"SourceGraphic" operator=3D"in"></feComposite></filter></defs></svg><svg=
+ xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 0 0" width=3D"0" heigh=
+t=3D"0" focusable=3D"false" role=3D"none" style=3D"visibility: hidden; posi=
+tion: absolute; left: -9999px; overflow: hidden;"><defs><filter id=3D"wp-du=
+otone-blue-orange"><feColorMatrix color-interpolation-filters=3D"sRGB" type=
+=3D"matrix" values=3D" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114=
+ 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interp=
+olation-filters=3D"sRGB"><feFuncR type=3D"table" tableValues=3D"0.098039215=
+686275 1"></feFuncR><feFuncG type=3D"table" tableValues=3D"0 0.662745098039=
+22"></feFuncG><feFuncB type=3D"table" tableValues=3D"0.84705882352941 0.419=
+60784313725"></feFuncB><feFuncA type=3D"table" tableValues=3D"1 1"></feFunc=
+A></feComponentTransfer><feComposite in2=3D"SourceGraphic" operator=3D"in">=
+</feComposite></filter></defs></svg><div id=3D"page" class=3D"site"> <a cla=
+ss=3D"skip-link screen-reader-text" href=3D"https://www.pythontutorial.net/=
+python-oop/python-enumeration/#primary">Skip to content</a><header id=3D"ma=
+sthead" class=3D"site-header"><div class=3D"wrap header-wrapper"><div class=
+=3D"site-branding"> <a href=3D"https://www.pythontutorial.net/" rel=3D"home=
+" aria-current=3D"page" class=3D"logo wizmage-pattern-bg-img wizmage-cls wi=
+zmage-shade-0" aria-label=3D"Go to the homepage"> </a></div><nav id=3D"site=
+-navigation" class=3D"site-navigation"><ul id=3D"primary-menu" class=3D"sit=
+e-menu"><li id=3D"menu-item-36" class=3D"menu-item menu-item-type-post_type=
+ menu-item-object-page menu-item-home menu-item-36"><a href=3D"https://www.=
+pythontutorial.net/">Home</a></li><li id=3D"menu-item-41" class=3D"menu-ite=
+m menu-item-type-post_type menu-item-object-page menu-item-41"><a href=3D"h=
+ttps://www.pythontutorial.net/getting-started/">Getting Started</a></li><li=
+ id=3D"menu-item-42" class=3D"menu-item menu-item-type-post_type menu-item-=
+object-page menu-item-42"><a href=3D"https://www.pythontutorial.net/python-=
+basics/">Basics</a></li><li id=3D"menu-item-464" class=3D"menu-item menu-it=
+em-type-post_type menu-item-object-page current-page-ancestor menu-item-464=
+"><a href=3D"https://www.pythontutorial.net/python-oop/">OOP</a></li><li id=
+=3D"menu-item-846" class=3D"menu-item menu-item-type-post_type menu-item-ob=
+ject-page menu-item-846"><a href=3D"https://www.pythontutorial.net/advanced=
+-python/">Advanced</a></li><li id=3D"menu-item-1320" class=3D"menu-item men=
+u-item-type-post_type menu-item-object-page menu-item-1320"><a href=3D"http=
+s://www.pythontutorial.net/tkinter/">Tkinter</a></li><li id=3D"menu-item-51=
+72" class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-5172"><a href=3D"https://www.pythontutorial.net/pyqt/">PyQt</a></li><l=
+i id=3D"menu-item-6148" class=3D"menu-item menu-item-type-post_type menu-it=
+em-object-page menu-item-6148"><a href=3D"https://www.pythontutorial.net/dj=
+ango-tutorial/">Django</a></li><li id=3D"menu-item-4111" class=3D"menu-item=
+ menu-item-type-post_type menu-item-object-page menu-item-4111"><a href=3D"=
+https://www.pythontutorial.net/python-concurrency/">Concurrency</a></li></u=
+l> <a aria-label=3D"Change Theme" class=3D"switch-theme"> <svg class=3D"dar=
+k-mode-icon" role=3D"img" width=3D"1rem" xmlns=3D"http://www.w3.org/2000/sv=
+g" viewBox=3D"0 0 512 512"><title>Dark Mode</title> <path fill=3D"currentCo=
+lor" d=3D"M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.=
+639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.2=
+22 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.1=
+56 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511=
+ 256 256 256z"> </path> </svg> <svg class=3D"light-mode-icon" role=3D"img" =
+width=3D"1rem" xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 512 512"=
+><title>Light Mode</title> <path fill=3D"currentColor" d=3D"M256 160c-52.9 =
+0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7=
+-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.=
+8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100=
+.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26=
+.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 3=
+3.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1=
+zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49=
+.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"> </path> </svg> </a> <butt=
+on class=3D"menu-toggle wizmage-pattern-bg-img wizmage-cls wizmage-shade-0"=
+ aria-controls=3D"primary-menu" aria-expanded=3D"false" aria-label=3D"Prima=
+ry Menu"></button></nav></div></header><div class=3D"site-inner wrap"><main=
+ id=3D"primary" class=3D"site-main"><p class=3D"breadcrumbs"><span><span><a=
+ href=3D"https://www.pythontutorial.net/">Home</a></span> =C2=BB <span><a h=
+ref=3D"https://www.pythontutorial.net/python-oop/">Python OOP</a></span> =
+=C2=BB <span class=3D"breadcrumb_last" aria-current=3D"page">Python Enumera=
+tion</span></span></p><article id=3D"post-2908" class=3D"post-2908 page typ=
+e-page status-publish hentry"><header class=3D"entry-header"><h1 class=3D"e=
+ntry-title">Python Enumeration</h1></header><div class=3D"entry-content"><d=
+iv class=3D"whitelist"><div class=3D"donation">
+<div class=3D"donation-text">If this Python Tutorial saves you hours of wor=
+k, please <span class=3D"highlight">whitelist it in your ad blocker </span>=
+ =F0=9F=98=AD and </div>
+<div> <a target=3D"_blank" class=3D"donate-button" href=3D"https://www.pyth=
+ontutorial.net/donation/">Donate Now</a></div>
+<div class=3D"donation-text">to help us =E2=9D=A4=EF=B8=8F pay for the web =
+hosting fee and CDN to keep the website running.</div>
+</div></div><p><strong>Summary</strong>: in this tutorial, you=E2=80=99ll l=
+earn about Python enumeration and how to use it effectively.</p><h2>Introdu=
+ction to the Python Enumeration</h2><p>By definition, an enumeration is a s=
+et of members that have associated unique constant values. Enumeration is o=
+ften called enum.</p><p>Python provides you with the <code>enum</code> modu=
+le that contains the <code>Enum</code> type for defining new enumerations. =
+And you define a new enumeration type by <a href=3D"https://www.pythontutor=
+ial.net/python-oop/python-inheritance/">subclassing</a> the <code>Enum</cod=
+e> class.</p><p>The following example shows how to create an enumeration ca=
+lled <code>Color</code>:</p><pre class=3D"wp-block-code" aria-describedby=
+=3D"shcb-language-1" data-shcb-language-name=3D"Python" data-shcb-language-=
+slug=3D"python"><div><code class=3D"hljs language-python"><span class=3D"hl=
+js-keyword">from</span> enum <span class=3D"hljs-keyword">import</span> Enu=
+m
+
+
+<span class=3D"hljs-class"><span class=3D"hljs-keyword">class</span> <span =
+class=3D"hljs-title">Color</span><span class=3D"hljs-params">(Enum)</span>:=
+</span>
+    RED =3D <span class=3D"hljs-number">1</span>
+    GREEN =3D <span class=3D"hljs-number">2</span>
+    BLUE =3D <span class=3D"hljs-number">3</span></code></div><small class=
+=3D"shcb-language" id=3D"shcb-language-1"><span class=3D"shcb-language__lab=
+el">Code language:</span> <span class=3D"shcb-language__name">Python</span>=
+ <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-language_=
+_slug">python</span><span class=3D"shcb-language__paren">)</span></small><i=
+ class=3D"icon-copy btn-copy-code"></i></pre><p>How it works.</p><p>First, =
+import the <code>Enum</code> type from the <code>enum</code> module:</p><pr=
+e class=3D"wp-block-code" aria-describedby=3D"shcb-language-2" data-shcb-la=
+nguage-name=3D"Python" data-shcb-language-slug=3D"python"><div><code class=
+=3D"hljs language-python"><span class=3D"hljs-keyword">from</span> enum <sp=
+an class=3D"hljs-keyword">import</span> Enum</code></div><small class=3D"sh=
+cb-language" id=3D"shcb-language-2"><span class=3D"shcb-language__label">Co=
+de language:</span> <span class=3D"shcb-language__name">Python</span> <span=
+ class=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug"=
+>python</span><span class=3D"shcb-language__paren">)</span></small><i class=
+=3D"icon-copy btn-copy-code"></i></pre><p>Second, define the <code>Color</c=
+ode> class that inherits from the <code>Enum</code> type:</p><pre class=3D"=
+wp-block-code" aria-describedby=3D"shcb-language-3" data-shcb-language-name=
+=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"hljs lan=
+guage-python"><span class=3D"hljs-class"><span class=3D"hljs-keyword">class=
+</span> <span class=3D"hljs-title">Color</span><span class=3D"hljs-params">=
+(Enum)</span>:</span></code></div><small class=3D"shcb-language" id=3D"shcb=
+-language-3"><span class=3D"shcb-language__label">Code language:</span> <sp=
+an class=3D"shcb-language__name">Python</span> <span class=3D"shcb-language=
+__paren">(</span><span class=3D"shcb-language__slug">python</span><span cla=
+ss=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-=
+code"></i></pre><p>Third, define the members of the <code>Color</code> enum=
+eration:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-language-=
+4" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"python"><d=
+iv><code class=3D"hljs language-python">RED =3D <span class=3D"hljs-number"=
+>1</span>
+GREEN =3D <span class=3D"hljs-number">2</span>
+BLUE =3D <span class=3D"hljs-number">3</span></code></div><small class=3D"s=
+hcb-language" id=3D"shcb-language-4"><span class=3D"shcb-language__label">C=
+ode language:</span> <span class=3D"shcb-language__name">Python</span> <spa=
+n class=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug=
+">python</span><span class=3D"shcb-language__paren">)</span></small><i clas=
+s=3D"icon-copy btn-copy-code"></i></pre><p>Note that the enumeration=E2=80=
+=99s members are constants. Therefore, their names are in uppercase letters=
+ by convention.</p><p>In this example, the <code>Color</code> is an enumera=
+tion. The <code>RED</code>, <code>GREEN</code>, and <code>BLUE</code> are m=
+embers of the <code>Color</code> enumeration. They have associated values 1=
+, 2, and 3.</p><p>The type of a member is the enumeration to which it belon=
+gs.</p><p>The following illustrates that the type of <code>Color.RED</code>=
+ is the <code>Color</code> enumeration:</p><pre class=3D"wp-block-code" ari=
+a-describedby=3D"shcb-language-5" data-shcb-language-name=3D"Python" data-s=
+hcb-language-slug=3D"python"><div><code class=3D"hljs language-python">prin=
+t(type(Color.RED))</code></div><small class=3D"shcb-language" id=3D"shcb-la=
+nguage-5"><span class=3D"shcb-language__label">Code language:</span> <span =
+class=3D"shcb-language__name">Python</span> <span class=3D"shcb-language__p=
+aren">(</span><span class=3D"shcb-language__slug">python</span><span class=
+=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-co=
+de"></i></pre><p>Output:</p><pre class=3D"wp-block-code" aria-describedby=
+=3D"shcb-language-6" data-shcb-language-name=3D"Python" data-shcb-language-=
+slug=3D"python"><div><code class=3D"hljs language-python">&lt;enum <span cl=
+ass=3D"hljs-string">'Color'</span>&gt;</code></div><small class=3D"shcb-lan=
+guage" id=3D"shcb-language-6"><span class=3D"shcb-language__label">Code lan=
+guage:</span> <span class=3D"shcb-language__name">Python</span> <span class=
+=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug">pytho=
+n</span><span class=3D"shcb-language__paren">)</span></small><i class=3D"ic=
+on-copy btn-copy-code"></i></pre><p>The <code>Color.RED</code> is also an i=
+nstance of the <code>Color</code> enumeration:</p><pre class=3D"wp-block-co=
+de" aria-describedby=3D"shcb-language-7" data-shcb-language-name=3D"Python"=
+ data-shcb-language-slug=3D"python"><div><code class=3D"hljs language-pytho=
+n">print(isinstance(Color.RED, Color))</code></div><small class=3D"shcb-lan=
+guage" id=3D"shcb-language-7"><span class=3D"shcb-language__label">Code lan=
+guage:</span> <span class=3D"shcb-language__name">Python</span> <span class=
+=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug">pytho=
+n</span><span class=3D"shcb-language__paren">)</span></small><i class=3D"ic=
+on-copy btn-copy-code"></i></pre><p>Output:</p><pre class=3D"wp-block-code"=
+ aria-describedby=3D"shcb-language-8" data-shcb-language-name=3D"Python" da=
+ta-shcb-language-slug=3D"python"><div><code class=3D"hljs language-python">=
+<span class=3D"hljs-literal">True</span></code></div><small class=3D"shcb-l=
+anguage" id=3D"shcb-language-8"><span class=3D"shcb-language__label">Code l=
+anguage:</span> <span class=3D"shcb-language__name">Python</span> <span cla=
+ss=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug">pyt=
+hon</span><span class=3D"shcb-language__paren">)</span></small><i class=3D"=
+icon-copy btn-copy-code"></i></pre><p>And it has the name and value attribu=
+tes:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-language-9" d=
+ata-shcb-language-name=3D"Python" data-shcb-language-slug=3D"python"><div><=
+code class=3D"hljs language-python">print(Color.RED.name)
+print(Color.RED.value)</code></div><small class=3D"shcb-language" id=3D"shc=
+b-language-9"><span class=3D"shcb-language__label">Code language:</span> <s=
+pan class=3D"shcb-language__name">Python</span> <span class=3D"shcb-languag=
+e__paren">(</span><span class=3D"shcb-language__slug">python</span><span cl=
+ass=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy=
+-code"></i></pre><p>Output:</p><pre class=3D"wp-block-code" aria-describedb=
+y=3D"shcb-language-10" data-shcb-language-name=3D"Python" data-shcb-languag=
+e-slug=3D"python"><div><code class=3D"hljs language-python">RED
+<span class=3D"hljs-number">1</span></code></div><small class=3D"shcb-langu=
+age" id=3D"shcb-language-10"><span class=3D"shcb-language__label">Code lang=
+uage:</span> <span class=3D"shcb-language__name">Python</span> <span class=
+=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug">pytho=
+n</span><span class=3D"shcb-language__paren">)</span></small><i class=3D"ic=
+on-copy btn-copy-code"></i></pre><h2>Membership and equality</h2><p>To chec=
+k if a member is in an enumeration, you use the <code>in</code> operator. F=
+or example:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-langua=
+ge-11" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"python=
+"><div><code class=3D"hljs language-python"><span class=3D"hljs-keyword">if=
+</span> Color.RED <span class=3D"hljs-keyword">in</span> Color:
+    print(<span class=3D"hljs-string">'Yes'</span>)</code></div><small clas=
+s=3D"shcb-language" id=3D"shcb-language-11"><span class=3D"shcb-language__l=
+abel">Code language:</span> <span class=3D"shcb-language__name">Python</spa=
+n> <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-languag=
+e__slug">python</span><span class=3D"shcb-language__paren">)</span></small>=
+<i class=3D"icon-copy btn-copy-code"></i></pre><p>Output:</p><pre class=3D"=
+wp-block-code" aria-describedby=3D"shcb-language-12" data-shcb-language-nam=
+e=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"hljs la=
+nguage-python">Yes</code></div><small class=3D"shcb-language" id=3D"shcb-la=
+nguage-12"><span class=3D"shcb-language__label">Code language:</span> <span=
+ class=3D"shcb-language__name">Python</span> <span class=3D"shcb-language__=
+paren">(</span><span class=3D"shcb-language__slug">python</span><span class=
+=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-co=
+de"></i></pre><p>To compare two members, you can use either <code>is</code>=
+ or <code>=3D=3D</code> operator. For example:</p><pre class=3D"wp-block-co=
+de" aria-describedby=3D"shcb-language-13" data-shcb-language-name=3D"Python=
+" data-shcb-language-slug=3D"python"><div><code class=3D"hljs language-pyth=
+on"><span class=3D"hljs-keyword">if</span> Color.RED <span class=3D"hljs-ke=
+yword">is</span> Color.BLUE:
+    print(<span class=3D"hljs-string">'red is blue'</span>)
+<span class=3D"hljs-keyword">else</span>:
+    print(<span class=3D"hljs-string">'red is not blue'</span>)</code></div=
+><small class=3D"shcb-language" id=3D"shcb-language-13"><span class=3D"shcb=
+-language__label">Code language:</span> <span class=3D"shcb-language__name"=
+>Python</span> <span class=3D"shcb-language__paren">(</span><span class=3D"=
+shcb-language__slug">python</span><span class=3D"shcb-language__paren">)</s=
+pan></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>Output:</p><p=
+re class=3D"wp-block-code" aria-describedby=3D"shcb-language-14" data-shcb-=
+language-name=3D"Python" data-shcb-language-slug=3D"python"><div><code clas=
+s=3D"hljs language-python">red <span class=3D"hljs-keyword">is</span> <span=
+ class=3D"hljs-keyword">not</span> blue</code></div><small class=3D"shcb-la=
+nguage" id=3D"shcb-language-14"><span class=3D"shcb-language__label">Code l=
+anguage:</span> <span class=3D"shcb-language__name">Python</span> <span cla=
+ss=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug">pyt=
+hon</span><span class=3D"shcb-language__paren">)</span></small><i class=3D"=
+icon-copy btn-copy-code"></i></pre><p>Note that a member and its associated=
+ value are not equal. The following example returns <code>False</code>:</p>=
+<pre class=3D"wp-block-code" aria-describedby=3D"shcb-language-15" data-shc=
+b-language-name=3D"Python" data-shcb-language-slug=3D"python"><div><code cl=
+ass=3D"hljs language-python"><span class=3D"hljs-keyword">if</span> Color.R=
+ED =3D=3D <span class=3D"hljs-number">1</span>:
+    print(<span class=3D"hljs-string">'Color.RED =3D=3D 1'</span>)
+<span class=3D"hljs-keyword">else</span>:
+    print(<span class=3D"hljs-string">'Color.RED !=3D 1'</span>)</code></di=
+v><small class=3D"shcb-language" id=3D"shcb-language-15"><span class=3D"shc=
+b-language__label">Code language:</span> <span class=3D"shcb-language__name=
+">Python</span> <span class=3D"shcb-language__paren">(</span><span class=3D=
+"shcb-language__slug">python</span><span class=3D"shcb-language__paren">)</=
+span></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>Output:</p><=
+pre class=3D"wp-block-code" aria-describedby=3D"shcb-language-16" data-shcb=
+-language-name=3D"Python" data-shcb-language-slug=3D"python"><div><code cla=
+ss=3D"hljs language-python">Color.RED !=3D <span class=3D"hljs-number">1</s=
+pan></code></div><small class=3D"shcb-language" id=3D"shcb-language-16"><sp=
+an class=3D"shcb-language__label">Code language:</span> <span class=3D"shcb=
+-language__name">Python</span> <span class=3D"shcb-language__paren">(</span=
+><span class=3D"shcb-language__slug">python</span><span class=3D"shcb-langu=
+age__paren">)</span></small><i class=3D"icon-copy btn-copy-code"></i></pre>=
+<h2>Enumeration members are hashable</h2><p>Enumeration members are always =
+<a href=3D"https://www.pythontutorial.net/python-oop/python-__hash__/">hash=
+able</a>. It means that you can use the enumeration members as keys in a <a=
+ href=3D"https://www.pythontutorial.net/python-basics/python-dictionary/">d=
+ictionary</a> or as elements of a <a href=3D"https://www.pythontutorial.net=
+/python-basics/python-set/">Set</a>.</p><p>The following example uses the m=
+embers of the <code>Color</code> enumeration in a dictionary:</p><pre class=
+=3D"wp-block-code" aria-describedby=3D"shcb-language-17" data-shcb-language=
+-name=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"hlj=
+s language-python">rgb =3D {
+    Color.RED: <span class=3D"hljs-string">'#ff0000'</span>,
+    Color.GREEN: <span class=3D"hljs-string">'#00ff00'</span>,
+    Color.BLUE: <span class=3D"hljs-string">'#0000ff'</span>
+}</code></div><small class=3D"shcb-language" id=3D"shcb-language-17"><span =
+class=3D"shcb-language__label">Code language:</span> <span class=3D"shcb-la=
+nguage__name">Python</span> <span class=3D"shcb-language__paren">(</span><s=
+pan class=3D"shcb-language__slug">python</span><span class=3D"shcb-language=
+__paren">)</span></small><i class=3D"icon-copy btn-copy-code"></i></pre><h2=
+>Access an enumeration member by name and value</h2><p>The typical way to a=
+ccess an enumeration member is to use the dot notation (.) syntax as you ha=
+ve seen so far:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-la=
+nguage-18" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"py=
+thon"><div><code class=3D"hljs language-python">Color.RED</code></div><smal=
+l class=3D"shcb-language" id=3D"shcb-language-18"><span class=3D"shcb-langu=
+age__label">Code language:</span> <span class=3D"shcb-language__name">Pytho=
+n</span> <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-l=
+anguage__slug">python</span><span class=3D"shcb-language__paren">)</span></=
+small><i class=3D"icon-copy btn-copy-code"></i></pre><p>Because the <code>E=
+num</code> implements the <code>__getitem__</code> method, you can also use=
+ a square brackets <code>[]</code> syntax to get a member by its name.</p><=
+p>For example, the following uses the square brackets <code>[]</code> synta=
+x to get the <code>RED</code> member of the <code>Color</code> enumeration =
+by its name:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-langu=
+age-19" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"pytho=
+n"><div><code class=3D"hljs language-python">print(Color[<span class=3D"hlj=
+s-string">'RED'</span>])</code></div><small class=3D"shcb-language" id=3D"s=
+hcb-language-19"><span class=3D"shcb-language__label">Code language:</span>=
+ <span class=3D"shcb-language__name">Python</span> <span class=3D"shcb-lang=
+uage__paren">(</span><span class=3D"shcb-language__slug">python</span><span=
+ class=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-c=
+opy-code"></i></pre><p>Output:</p><pre class=3D"wp-block-code" aria-describ=
+edby=3D"shcb-language-20" data-shcb-language-name=3D"Python" data-shcb-lang=
+uage-slug=3D"python"><div><code class=3D"hljs language-python">Color.RED</c=
+ode></div><small class=3D"shcb-language" id=3D"shcb-language-20"><span clas=
+s=3D"shcb-language__label">Code language:</span> <span class=3D"shcb-langua=
+ge__name">Python</span> <span class=3D"shcb-language__paren">(</span><span =
+class=3D"shcb-language__slug">python</span><span class=3D"shcb-language__pa=
+ren">)</span></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>Sinc=
+e an enumeration is <a href=3D"https://www.pythontutorial.net/python-built-=
+in-functions/python-callable/">callable</a>, you can get a member by its va=
+lue. For example, the following return the <code>RED</code> member of the <=
+code>Color</code> enumeration by its value:</p><pre class=3D"wp-block-code"=
+ aria-describedby=3D"shcb-language-21" data-shcb-language-name=3D"Python" d=
+ata-shcb-language-slug=3D"python"><div><code class=3D"hljs language-python"=
+>print(Color(<span class=3D"hljs-number">1</span>))</code></div><small clas=
+s=3D"shcb-language" id=3D"shcb-language-21"><span class=3D"shcb-language__l=
+abel">Code language:</span> <span class=3D"shcb-language__name">Python</spa=
+n> <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-languag=
+e__slug">python</span><span class=3D"shcb-language__paren">)</span></small>=
+<i class=3D"icon-copy btn-copy-code"></i></pre><p>Output:</p><pre class=3D"=
+wp-block-code" aria-describedby=3D"shcb-language-22" data-shcb-language-nam=
+e=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"hljs la=
+nguage-python">Color.RED</code></div><small class=3D"shcb-language" id=3D"s=
+hcb-language-22"><span class=3D"shcb-language__label">Code language:</span>=
+ <span class=3D"shcb-language__name">Python</span> <span class=3D"shcb-lang=
+uage__paren">(</span><span class=3D"shcb-language__slug">python</span><span=
+ class=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-c=
+opy-code"></i></pre><p>The following expression returns <code>True</code> b=
+ecause it accesses the same enumeration member using name and value:</p><pr=
+e class=3D"wp-block-code" aria-describedby=3D"shcb-language-23" data-shcb-l=
+anguage-name=3D"Python" data-shcb-language-slug=3D"python"><div><code class=
+=3D"hljs language-python">print(Color[<span class=3D"hljs-string">'RED'</sp=
+an>] =3D=3D Color(<span class=3D"hljs-number">1</span>))</code></div><small=
+ class=3D"shcb-language" id=3D"shcb-language-23"><span class=3D"shcb-langua=
+ge__label">Code language:</span> <span class=3D"shcb-language__name">Python=
+</span> <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-la=
+nguage__slug">python</span><span class=3D"shcb-language__paren">)</span></s=
+mall><i class=3D"icon-copy btn-copy-code"></i></pre><p>Output:</p><pre clas=
+s=3D"wp-block-code" aria-describedby=3D"shcb-language-24" data-shcb-languag=
+e-name=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"hl=
+js language-python"><span class=3D"hljs-literal">True</span></code></div><s=
+mall class=3D"shcb-language" id=3D"shcb-language-24"><span class=3D"shcb-la=
+nguage__label">Code language:</span> <span class=3D"shcb-language__name">Py=
+thon</span> <span class=3D"shcb-language__paren">(</span><span class=3D"shc=
+b-language__slug">python</span><span class=3D"shcb-language__paren">)</span=
+></small><i class=3D"icon-copy btn-copy-code"></i></pre><h2>Iterate enumera=
+tion members</h2><p>Enumerations are iterables so you can iterate them usin=
+g a <code>for</code> loop. For example:</p><pre class=3D"wp-block-code" ari=
+a-describedby=3D"shcb-language-25" data-shcb-language-name=3D"Python" data-=
+shcb-language-slug=3D"python"><div><code class=3D"hljs language-python"><sp=
+an class=3D"hljs-keyword">for</span> color <span class=3D"hljs-keyword">in<=
+/span> Color:
+    print(color)</code></div><small class=3D"shcb-language" id=3D"shcb-lang=
+uage-25"><span class=3D"shcb-language__label">Code language:</span> <span c=
+lass=3D"shcb-language__name">Python</span> <span class=3D"shcb-language__pa=
+ren">(</span><span class=3D"shcb-language__slug">python</span><span class=
+=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-co=
+de"></i></pre><p>Output:</p><pre class=3D"wp-block-code" aria-describedby=
+=3D"shcb-language-26" data-shcb-language-name=3D"Python" data-shcb-language=
+-slug=3D"python"><div><code class=3D"hljs language-python">Color.RED
+Color.GREEN
+Color.BLUE</code></div><small class=3D"shcb-language" id=3D"shcb-language-2=
+6"><span class=3D"shcb-language__label">Code language:</span> <span class=
+=3D"shcb-language__name">Python</span> <span class=3D"shcb-language__paren"=
+>(</span><span class=3D"shcb-language__slug">python</span><span class=3D"sh=
+cb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-code"></=
+i></pre><p>Notice that the order of the members is the same as in the enume=
+ration definition.</p><p>Also, you can use the <code>list()</code> function=
+ to return a list of members from an enumeration:</p><pre class=3D"wp-block=
+-code" aria-describedby=3D"shcb-language-27" data-shcb-language-name=3D"Pyt=
+hon" data-shcb-language-slug=3D"python"><div><code class=3D"hljs language-p=
+ython">print(list(Color))</code></div><small class=3D"shcb-language" id=3D"=
+shcb-language-27"><span class=3D"shcb-language__label">Code language:</span=
+> <span class=3D"shcb-language__name">Python</span> <span class=3D"shcb-lan=
+guage__paren">(</span><span class=3D"shcb-language__slug">python</span><spa=
+n class=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-=
+copy-code"></i></pre><p>Output:</p><pre class=3D"wp-block-code" aria-descri=
+bedby=3D"shcb-language-28" data-shcb-language-name=3D"Python" data-shcb-lan=
+guage-slug=3D"python"><div><code class=3D"hljs language-python">[&lt;Color.=
+RED: <span class=3D"hljs-number">1</span>&gt;, &lt;Color.GREEN: <span class=
+=3D"hljs-number">2</span>&gt;, &lt;Color.BLUE: <span class=3D"hljs-number">=
+3</span>&gt;]</code></div><small class=3D"shcb-language" id=3D"shcb-languag=
+e-28"><span class=3D"shcb-language__label">Code language:</span> <span clas=
+s=3D"shcb-language__name">Python</span> <span class=3D"shcb-language__paren=
+">(</span><span class=3D"shcb-language__slug">python</span><span class=3D"s=
+hcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-code"><=
+/i></pre><h2>Enumerations are immutable</h2><p>Enumerations are <a href=3D"=
+https://www.pythontutorial.net/advanced-python/python-mutable-and-immutable=
+/">immutable</a>. It means you cannot add or remove members once an enumera=
+tion is defined. And you also cannot change the member values.</p><p>The fo=
+llowing example attempts to assign a new member to the <code>Color</code> e=
+numeration and causes a <code>TypeError</code>:</p><pre class=3D"wp-block-c=
+ode" aria-describedby=3D"shcb-language-29" data-shcb-language-name=3D"Pytho=
+n" data-shcb-language-slug=3D"python"><div><code class=3D"hljs language-pyt=
+hon">Color[<span class=3D"hljs-string">'YELLOW'</span>] =3D <span class=3D"=
+hljs-number">4</span></code></div><small class=3D"shcb-language" id=3D"shcb=
+-language-29"><span class=3D"shcb-language__label">Code language:</span> <s=
+pan class=3D"shcb-language__name">Python</span> <span class=3D"shcb-languag=
+e__paren">(</span><span class=3D"shcb-language__slug">python</span><span cl=
+ass=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy=
+-code"></i></pre><p>Error:</p><pre class=3D"wp-block-code" aria-describedby=
+=3D"shcb-language-30" data-shcb-language-name=3D"Python" data-shcb-language=
+-slug=3D"python"><div><code class=3D"hljs language-python">TypeError: <span=
+ class=3D"hljs-string">'EnumMeta'</span> object does <span class=3D"hljs-ke=
+yword">not</span> support item assignment</code></div><small class=3D"shcb-=
+language" id=3D"shcb-language-30"><span class=3D"shcb-language__label">Code=
+ language:</span> <span class=3D"shcb-language__name">Python</span> <span c=
+lass=3D"shcb-language__paren">(</span><span class=3D"shcb-language__slug">p=
+ython</span><span class=3D"shcb-language__paren">)</span></small><i class=
+=3D"icon-copy btn-copy-code"></i></pre><p>The following example attempts th=
+e change the value of the <code>RED</code> member of the <code>Color</code>=
+ enumeration and causes an <code>AttributeError</code>:</p><pre class=3D"wp=
+-block-code" aria-describedby=3D"shcb-language-31" data-shcb-language-name=
+=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"hljs lan=
+guage-python">Color.RED.value =3D <span class=3D"hljs-number">100</span></c=
+ode></div><small class=3D"shcb-language" id=3D"shcb-language-31"><span clas=
+s=3D"shcb-language__label">Code language:</span> <span class=3D"shcb-langua=
+ge__name">Python</span> <span class=3D"shcb-language__paren">(</span><span =
+class=3D"shcb-language__slug">python</span><span class=3D"shcb-language__pa=
+ren">)</span></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>Outp=
+ut:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-language-32" d=
+ata-shcb-language-name=3D"Python" data-shcb-language-slug=3D"python"><div><=
+code class=3D"hljs language-python">AttributeError: can<span class=3D"hljs-=
+string">'t set attribute</span></code></div><small class=3D"shcb-language" =
+id=3D"shcb-language-32"><span class=3D"shcb-language__label">Code language:=
+</span> <span class=3D"shcb-language__name">Python</span> <span class=3D"sh=
+cb-language__paren">(</span><span class=3D"shcb-language__slug">python</spa=
+n><span class=3D"shcb-language__paren">)</span></small><i class=3D"icon-cop=
+y btn-copy-code"></i></pre><h2>Inherits from an enumeration</h2><p>An enume=
+ration cannot be inherited unless it contains no members. The following exa=
+mple works fine because the <code>Color</code> enumeration contains no memb=
+ers:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-language-33" =
+data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"python"><div>=
+<code class=3D"hljs language-python"><span class=3D"hljs-class"><span class=
+=3D"hljs-keyword">class</span> <span class=3D"hljs-title">Color</span><span=
+ class=3D"hljs-params">(Enum)</span>:</span>
+    <span class=3D"hljs-keyword">pass</span>
+
+
+<span class=3D"hljs-class"><span class=3D"hljs-keyword">class</span> <span =
+class=3D"hljs-title">RGB</span><span class=3D"hljs-params">(Color)</span>:<=
+/span>
+    RED =3D <span class=3D"hljs-number">1</span>
+    GREEN =3D <span class=3D"hljs-number">2</span>
+    BLUE =3D <span class=3D"hljs-number">3</span></code></div><small class=
+=3D"shcb-language" id=3D"shcb-language-33"><span class=3D"shcb-language__la=
+bel">Code language:</span> <span class=3D"shcb-language__name">Python</span=
+> <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-language=
+__slug">python</span><span class=3D"shcb-language__paren">)</span></small><=
+i class=3D"icon-copy btn-copy-code"></i></pre><p>However, the following exa=
+mple won=E2=80=99t work because the <code>RGB</code> enumeration has member=
+s:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-language-34" da=
+ta-shcb-language-name=3D"Python" data-shcb-language-slug=3D"python"><div><c=
+ode class=3D"hljs language-python"><span class=3D"hljs-class"><span class=
+=3D"hljs-keyword">class</span> <span class=3D"hljs-title">RGBA</span><span =
+class=3D"hljs-params">(RGB)</span>:</span>
+    ALPHA =3D <span class=3D"hljs-number">4</span></code></div><small class=
+=3D"shcb-language" id=3D"shcb-language-34"><span class=3D"shcb-language__la=
+bel">Code language:</span> <span class=3D"shcb-language__name">Python</span=
+> <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-language=
+__slug">python</span><span class=3D"shcb-language__paren">)</span></small><=
+i class=3D"icon-copy btn-copy-code"></i></pre><p>Error:</p><pre class=3D"wp=
+-block-code" aria-describedby=3D"shcb-language-35" data-shcb-language-name=
+=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"hljs lan=
+guage-python">TypeError: Cannot extend enumerations</code></div><small clas=
+s=3D"shcb-language" id=3D"shcb-language-35"><span class=3D"shcb-language__l=
+abel">Code language:</span> <span class=3D"shcb-language__name">Python</spa=
+n> <span class=3D"shcb-language__paren">(</span><span class=3D"shcb-languag=
+e__slug">python</span><span class=3D"shcb-language__paren">)</span></small>=
+<i class=3D"icon-copy btn-copy-code"></i></pre><h2>Python enumeration examp=
+le</h2><p>The following example defines an enumeration called <code>Respons=
+eStatus</code>:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-la=
+nguage-36" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"py=
+thon"><div><code class=3D"hljs language-python"><span class=3D"hljs-class">=
+<span class=3D"hljs-keyword">class</span> <span class=3D"hljs-title">Respon=
+seStatus</span><span class=3D"hljs-params">(Enum)</span>:</span>
+    PENDING =3D <span class=3D"hljs-string">'pending'</span>
+    FULFILLED =3D <span class=3D"hljs-string">'fulfilled'</span>
+    REJECTED =3D <span class=3D"hljs-string">'rejected'</span></code></div>=
+<small class=3D"shcb-language" id=3D"shcb-language-36"><span class=3D"shcb-=
+language__label">Code language:</span> <span class=3D"shcb-language__name">=
+Python</span> <span class=3D"shcb-language__paren">(</span><span class=3D"s=
+hcb-language__slug">python</span><span class=3D"shcb-language__paren">)</sp=
+an></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>Suppose you re=
+ceive a response from an HTTP request with the following string:</p><pre cl=
+ass=3D"wp-block-code" aria-describedby=3D"shcb-language-37" data-shcb-langu=
+age-name=3D"Python" data-shcb-language-slug=3D"python"><div><code class=3D"=
+hljs language-python">response =3D <span class=3D"hljs-string">'''{
+    "status":"fulfilled"
+}'''</span></code></div><small class=3D"shcb-language" id=3D"shcb-language-=
+37"><span class=3D"shcb-language__label">Code language:</span> <span class=
+=3D"shcb-language__name">Python</span> <span class=3D"shcb-language__paren"=
+>(</span><span class=3D"shcb-language__slug">python</span><span class=3D"sh=
+cb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-code"></=
+i></pre><p>And you want to look up the <code>ResponseStatus</code> enumerat=
+ion by the <code>status</code>. To do that, you need to convert the respons=
+e=E2=80=99s string to a dictionary and get the value of the status:</p><pre=
+ class=3D"wp-block-code" aria-describedby=3D"shcb-language-38" data-shcb-la=
+nguage-name=3D"Python" data-shcb-language-slug=3D"python"><div><code class=
+=3D"hljs language-python"><span class=3D"hljs-keyword">import</span> json
+
+data =3D json.loads(response)
+status =3D data[<span class=3D"hljs-string">'status'</span>]</code></div><s=
+mall class=3D"shcb-language" id=3D"shcb-language-38"><span class=3D"shcb-la=
+nguage__label">Code language:</span> <span class=3D"shcb-language__name">Py=
+thon</span> <span class=3D"shcb-language__paren">(</span><span class=3D"shc=
+b-language__slug">python</span><span class=3D"shcb-language__paren">)</span=
+></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>And then you loo=
+k up the member of the <code>ResponseStatus</code> enumeration by the statu=
+s=E2=80=99 value:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-=
+language-39" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"=
+python"><div><code class=3D"hljs language-python">print(ResponseStatus(stat=
+us))</code></div><small class=3D"shcb-language" id=3D"shcb-language-39"><sp=
+an class=3D"shcb-language__label">Code language:</span> <span class=3D"shcb=
+-language__name">Python</span> <span class=3D"shcb-language__paren">(</span=
+><span class=3D"shcb-language__slug">python</span><span class=3D"shcb-langu=
+age__paren">)</span></small><i class=3D"icon-copy btn-copy-code"></i></pre>=
+<p>Output:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-languag=
+e-40" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"python"=
+><div><code class=3D"hljs language-python">PromiseStatus.FULFILLED</code></=
+div><small class=3D"shcb-language" id=3D"shcb-language-40"><span class=3D"s=
+hcb-language__label">Code language:</span> <span class=3D"shcb-language__na=
+me">Python</span> <span class=3D"shcb-language__paren">(</span><span class=
+=3D"shcb-language__slug">python</span><span class=3D"shcb-language__paren">=
+)</span></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>Here=E2=
+=80=99s the complete program:</p><pre class=3D"wp-block-code" aria-describe=
+dby=3D"shcb-language-41" data-shcb-language-name=3D"Python" data-shcb-langu=
+age-slug=3D"python"><div><code class=3D"hljs language-python"><span class=
+=3D"hljs-keyword">from</span> enum <span class=3D"hljs-keyword">import</spa=
+n> Enum
+<span class=3D"hljs-keyword">import</span> json
+
+
+<span class=3D"hljs-class"><span class=3D"hljs-keyword">class</span> <span =
+class=3D"hljs-title">ResponseStatus</span><span class=3D"hljs-params">(Enum=
+)</span>:</span>
+    PENDING =3D <span class=3D"hljs-string">'pending'</span>
+    FULFILLED =3D <span class=3D"hljs-string">'fulfilled'</span>
+    REJECTED =3D <span class=3D"hljs-string">'rejected'</span>
+
+
+response =3D <span class=3D"hljs-string">'''{
+    "status":"fulfilled"
+}'''</span>
+
+data =3D json.loads(response)
+status =3D data[<span class=3D"hljs-string">'status'</span>]
+
+print(ResponseStatus(status))</code></div><small class=3D"shcb-language" id=
+=3D"shcb-language-41"><span class=3D"shcb-language__label">Code language:</=
+span> <span class=3D"shcb-language__name">Python</span> <span class=3D"shcb=
+-language__paren">(</span><span class=3D"shcb-language__slug">python</span>=
+<span class=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy =
+btn-copy-code"></i></pre><p>What if the <code>status</code> is not one of t=
+he values of the <code>ResponseStatus</code> members? then you=E2=80=99ll g=
+et an error. For example:</p><pre class=3D"wp-block-code" aria-describedby=
+=3D"shcb-language-42" data-shcb-language-name=3D"Python" data-shcb-language=
+-slug=3D"python"><div><code class=3D"hljs language-python"><span class=3D"h=
+ljs-keyword">from</span> enum <span class=3D"hljs-keyword">import</span> En=
+um
+<span class=3D"hljs-keyword">import</span> json
+
+
+<span class=3D"hljs-class"><span class=3D"hljs-keyword">class</span> <span =
+class=3D"hljs-title">ResponseStatus</span><span class=3D"hljs-params">(Enum=
+)</span>:</span>
+    PENDING =3D <span class=3D"hljs-string">'pending'</span>
+    FULFILLED =3D <span class=3D"hljs-string">'fulfilled'</span>
+    REJECTED =3D <span class=3D"hljs-string">'rejected'</span>
+
+
+response =3D <span class=3D"hljs-string">'''{
+    "status":"ok"
+}'''</span>
+
+data =3D json.loads(response)
+status =3D data[<span class=3D"hljs-string">'status'</span>]
+
+print(ResponseStatus(status))</code></div><small class=3D"shcb-language" id=
+=3D"shcb-language-42"><span class=3D"shcb-language__label">Code language:</=
+span> <span class=3D"shcb-language__name">Python</span> <span class=3D"shcb=
+-language__paren">(</span><span class=3D"shcb-language__slug">python</span>=
+<span class=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy =
+btn-copy-code"></i></pre><p>Error:</p><pre class=3D"wp-block-code" aria-des=
+cribedby=3D"shcb-language-43" data-shcb-language-name=3D"Python" data-shcb-=
+language-slug=3D"python"><div><code class=3D"hljs language-python">ValueErr=
+or: <span class=3D"hljs-string">'ok'</span> <span class=3D"hljs-keyword">is=
+</span> <span class=3D"hljs-keyword">not</span> a valid ResponseStatus</cod=
+e></div><small class=3D"shcb-language" id=3D"shcb-language-43"><span class=
+=3D"shcb-language__label">Code language:</span> <span class=3D"shcb-languag=
+e__name">Python</span> <span class=3D"shcb-language__paren">(</span><span c=
+lass=3D"shcb-language__slug">python</span><span class=3D"shcb-language__par=
+en">)</span></small><i class=3D"icon-copy btn-copy-code"></i></pre><p>To ca=
+tch the exception, you can use the <a href=3D"https://www.pythontutorial.ne=
+t/python-basics/python-try-except/">try=E2=80=A6except</a> statement like t=
+he following:</p><pre class=3D"wp-block-code" aria-describedby=3D"shcb-lang=
+uage-44" data-shcb-language-name=3D"Python" data-shcb-language-slug=3D"pyth=
+on"><div><code class=3D"hljs language-python"><span class=3D"hljs-keyword">=
+from</span> enum <span class=3D"hljs-keyword">import</span> Enum
+<span class=3D"hljs-keyword">import</span> json
+
+
+<span class=3D"hljs-class"><span class=3D"hljs-keyword">class</span> <span =
+class=3D"hljs-title">ResponseStatus</span><span class=3D"hljs-params">(Enum=
+)</span>:</span>
+    PENDING =3D <span class=3D"hljs-string">'pending'</span>
+    FULFILLED =3D <span class=3D"hljs-string">'fulfilled'</span>
+    REJECTED =3D <span class=3D"hljs-string">'rejected'</span>
+
+
+response =3D <span class=3D"hljs-string">'''{
+    "status":"ok"
+}'''</span>
+
+data =3D json.loads(response)
+status =3D data[<span class=3D"hljs-string">'status'</span>]
+
+<span class=3D"hljs-keyword">try</span>:
+    <span class=3D"hljs-keyword">if</span> ResponseStatus(status) <span cla=
+ss=3D"hljs-keyword">is</span> ResponseStatus.FULFILLED:
+        print(<span class=3D"hljs-string">'The request completed successful=
+ly'</span>)
+<span class=3D"hljs-keyword">except</span> ValueError <span class=3D"hljs-k=
+eyword">as</span> error:
+    print(error)</code></div><small class=3D"shcb-language" id=3D"shcb-lang=
+uage-44"><span class=3D"shcb-language__label">Code language:</span> <span c=
+lass=3D"shcb-language__name">Python</span> <span class=3D"shcb-language__pa=
+ren">(</span><span class=3D"shcb-language__slug">python</span><span class=
+=3D"shcb-language__paren">)</span></small><i class=3D"icon-copy btn-copy-co=
+de"></i></pre><h2>Summary</h2><ul><li>An enumeration is a set of members th=
+at have associated unique constant values.</li><li>Create a new enumeration=
+ by defining a class that inherits from the <code>Enum</code> type of the e=
+num module.</li><li>The members have the same types as the enumeration to w=
+hich they belong.</li><li>Use the <code>enumeration[member_name]</code> to =
+access a member by its name and <code>enumeration(member_value)</code> to a=
+ccess a member by its value.</li><li>Enumerations are <a href=3D"https://ww=
+w.pythontutorial.net/python-basics/python-iterables/">iterable</a>.</li><li=
+>Enumeration members are <a href=3D"https://www.pythontutorial.net/python-o=
+op/python-__hash__/">hashable</a>.</li><li>Enumerable are immuable.</li><li=
+>Cannot inherits from an enumeration unless it has no members.</li></ul><di=
+v class=3D"helpful-block-content" data-title=3D""><header><div class=3D"wth=
+-question">Did you find this tutorial helpful ?</div><div class=3D"wth-thum=
+bs"> <button data-post=3D"2908" data-post-url=3D"https://www.pythontutorial=
+.net/python-oop/python-enumeration/" data-post-title=3D"Python Enumeration"=
+ data-response=3D"1" class=3D"wth-btn-rounded wth-yes-btn"> <svg xmlns=3D"h=
+ttp://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"cu=
+rrentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"=
+round" class=3D"feather feather-thumbs-up block w-full h-full"> <path d=3D"=
+M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3z=
+M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path> </svg> <span class=3D"sr-=
+only"> Yes </span> </button> <button data-response=3D"0" data-post=3D"2908"=
+ data-post-url=3D"https://www.pythontutorial.net/python-oop/python-enumerat=
+ion/" data-post-title=3D"Python Enumeration" class=3D"wth-btn-rounded wth-n=
+o-btn"> <svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24" fil=
+l=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"rou=
+nd" stroke-linejoin=3D"round"> <path d=3D"M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72=
+a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a=
+2.31 2.31 0 0 1-2.33 2H17"></path> </svg> <span class=3D"sr-only"> No </spa=
+n> </button></div></header><div class=3D"wth-form hidden"><div class=3D"wth=
+-form-wrapper"><div class=3D"wth-title"></div><textarea class=3D"wth-messag=
+e"></textarea><input type=3D"button" name=3D"wth-submit" class=3D"wth-btn w=
+th-btn-submit" id=3D"wth-submit"> <input type=3D"button" class=3D"wth-btn w=
+th-btn-cancel" value=3D"Cancel"></div></div></div><div class=3D"ad ad-336">=
+<div data-aaad=3D"true" data-aa-adunit=3D"/21722279357/336x280_OB_pythontut=
+orial_2"></div></div></div></article><div class=3D"page-nav"><div class=3D"=
+prev-page"> <a class=3D"prev-page-anchor" href=3D"https://www.pythontutoria=
+l.net/python-oop/python-protocol/" title=3D"Python Protocol"><div class=3D"=
+page-nav-arrow"> <img src=3D"https://www.pythontutorial.net/wp-content/them=
+es/evolution/img/left.svg" data-src=3D"https://www.pythontutorial.net/wp-co=
+ntent/themes/evolution/img/left.svg" height=3D"32" width=3D"32" class=3D"ic=
+on-prev-page lazyloaded" alt=3D"Python Protocol"></div><div class=3D"page-n=
+av-main page-nav-first"><div class=3D"page-nav-title">Previously</div><div =
+class=3D"page-title">Python Protocol</div></div> </a></div><div class=3D"ne=
+xt-page"><link rel=3D"prerender" href=3D"https://www.pythontutorial.net/pyt=
+hon-oop/python-enum-unique/"> <a href=3D"https://www.pythontutorial.net/pyt=
+hon-oop/python-enum-unique/" title=3D"Python Enum aliases &amp; @enum.uniqu=
+e Decorator" class=3D"next-page-anchor"><div class=3D"page-nav-main page-na=
+v-second"><div class=3D"page-nav-title">Up Next</div><div class=3D"page-tit=
+le">Python Enum aliases &amp; @enum.unique Decorator</div></div><div class=
+=3D"page-nav-arrow"> <img src=3D"https://www.pythontutorial.net/wp-content/=
+themes/evolution/img/right.svg" data-src=3D"https://www.pythontutorial.net/=
+wp-content/themes/evolution/img/right.svg" height=3D"32" width=3D"32" class=
+=3D"icon-next-page lazyloaded" alt=3D"Python Enum aliases &amp; @enum.uniqu=
+e Decorator"></div> </a></div></div></main><aside id=3D"secondary" class=3D=
+"widget-area"><section id=3D"textblockswidget-26" class=3D"widget widget_te=
+xtblockswidget"><div class=3D"text-block carbon"><div id=3D"carbon-block"><=
+div id=3D"carbonads"><span><span class=3D"carbon-wrap"><a href=3D"https://s=
+rv.carbonads.net/ads/click/x/GTND42JUCE7IPKQMF6B4YKQNCABD627LCESD6Z3JCYSIVK=
+J7C6AD5K3KC6BIK53MFTBDPK7WF6BIE5QMFTBDEK7IHEYIK27WCK7IV53ECTNCYBZ52K?segmen=
+t=3Dplacement:wwwpythontutorialnet;" class=3D"carbon-img" target=3D"_blank"=
+ rel=3D"noopener sponsored"><img src=3D"data:image/gif;base64,R0lGODlhAQABA=
+IAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=3D=3D" alt=3D"ads via Carbon"=
+ border=3D"0" height=3D"100" width=3D"130" style=3D"max-width: 130px; width=
+: 150px; height: 115px;" class=3D"  wizmage-pattern-bg-img wizmage-cls wizm=
+age-shade-2" title=3D"ads via Carbon"></a><a href=3D"https://srv.carbonads.=
+net/ads/click/x/GTND42JUCE7IPKQMF6B4YKQNCABD627LCESD6Z3JCYSIVKJ7C6AD5K3KC6B=
+IK53MFTBDPK7WF6BIE5QMFTBDEK7IHEYIK27WCK7IV53ECTNCYBZ52K?segment=3Dplacement=
+:wwwpythontutorialnet;" class=3D"carbon-text" target=3D"_blank" rel=3D"noop=
+ener sponsored">Your new development career awaits. Check out the latest li=
+stings.</a></span><a href=3D"http://carbonads.net/?utm_source=3Dwwwpythontu=
+torialnet&amp;utm_medium=3Dad_via_link&amp;utm_campaign=3Din_unit&amp;utm_t=
+erm=3Dcarbon" class=3D"carbon-poweredby" target=3D"_blank" rel=3D"noopener =
+sponsored">ads via Carbon</a></span></div></div><p></p></div></section><sec=
+tion id=3D"textblockswidget-12" class=3D"widget widget_textblockswidget"><d=
+iv class=3D"text-block sidebar-top"><div class=3D"ad ad-300"><div data-aaad=
+=3D"true" data-aa-adunit=3D"/21722279357/300x250_OB_pythontutorial"></div><=
+/div></div></section><section id=3D"search-3" class=3D"widget widget_search=
+"><form role=3D"search" method=3D"get" class=3D"search-form" action=3D"http=
+s://www.pythontutorial.net/"> <label> <span class=3D"screen-reader-text">Se=
+arch for:</span> <input type=3D"search" class=3D"search-field" placeholder=
+=3D"Search =E2=80=A6" value=3D"" name=3D"s"> </label> <input type=3D"submit=
+" class=3D"search-submit" value=3D"Search"></form></section><section id=3D"=
+nav_menu-22" class=3D"widget widget_nav_menu"><h2 class=3D"widget-title">Cl=
+asses &amp; Objects</h2><div class=3D"menu-oop-classes-container"><ul id=3D=
+"menu-oop-classes" class=3D"menu"><li id=3D"menu-item-2712" class=3D"menu-i=
+tem menu-item-type-post_type menu-item-object-page menu-item-2712"><a href=
+=3D"https://www.pythontutorial.net/python-oop/python-object-oriented-progra=
+mming/">Python Object-oriented Programming</a></li><li id=3D"menu-item-1111=
+" class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-it=
+em-1111"><a href=3D"https://www.pythontutorial.net/python-oop/python-class/=
+">Class</a></li><li id=3D"menu-item-2713" class=3D"menu-item menu-item-type=
+-post_type menu-item-object-page menu-item-2713"><a href=3D"https://www.pyt=
+hontutorial.net/python-oop/python-class-variables/">Class Variables</a></li=
+><li id=3D"menu-item-2714" class=3D"menu-item menu-item-type-post_type menu=
+-item-object-page menu-item-2714"><a href=3D"https://www.pythontutorial.net=
+/python-oop/python-methods/">Instance Methods</a></li><li id=3D"menu-item-2=
+715" class=3D"menu-item menu-item-type-post_type menu-item-object-page menu=
+-item-2715"><a href=3D"https://www.pythontutorial.net/python-oop/python-__i=
+nit__/">__init__: Initializing Instance Attributes</a></li><li id=3D"menu-i=
+tem-2716" class=3D"menu-item menu-item-type-post_type menu-item-object-page=
+ menu-item-2716"><a href=3D"https://www.pythontutorial.net/python-oop/pytho=
+n-instance-variables/">Instance Variables</a></li><li id=3D"menu-item-2717"=
+ class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-ite=
+m-2717"><a href=3D"https://www.pythontutorial.net/python-oop/python-private=
+-attributes/">Private Attributes</a></li><li id=3D"menu-item-2718" class=3D=
+"menu-item menu-item-type-post_type menu-item-object-page menu-item-2718"><=
+a href=3D"https://www.pythontutorial.net/python-oop/python-class-attributes=
+/">Class Attributes</a></li><li id=3D"menu-item-1116" class=3D"menu-item me=
+nu-item-type-post_type menu-item-object-page menu-item-1116"><a href=3D"htt=
+ps://www.pythontutorial.net/python-oop/python-static-methods/">Static Metho=
+ds</a></li></ul></div></section><section id=3D"nav_menu-23" class=3D"widget=
+ widget_nav_menu"><h2 class=3D"widget-title">Special Methods</h2><div class=
+=3D"menu-oop-special-methods-container"><ul id=3D"menu-oop-special-methods"=
+ class=3D"menu"><li id=3D"menu-item-2607" class=3D"menu-item menu-item-type=
+-post_type menu-item-object-page menu-item-2607"><a href=3D"https://www.pyt=
+hontutorial.net/python-oop/python-__str__/">__str__</a></li><li id=3D"menu-=
+item-2606" class=3D"menu-item menu-item-type-post_type menu-item-object-pag=
+e menu-item-2606"><a href=3D"https://www.pythontutorial.net/python-oop/pyth=
+on-__repr__/">__repr__</a></li><li id=3D"menu-item-1120" class=3D"menu-item=
+ menu-item-type-post_type menu-item-object-page menu-item-1120"><a href=3D"=
+https://www.pythontutorial.net/python-oop/python-__eq__/">__eq__</a></li><l=
+i id=3D"menu-item-2605" class=3D"menu-item menu-item-type-post_type menu-it=
+em-object-page menu-item-2605"><a href=3D"https://www.pythontutorial.net/py=
+thon-oop/python-__hash__/">__hash__</a></li><li id=3D"menu-item-2604" class=
+=3D"menu-item menu-item-type-post_type menu-item-object-page menu-item-2604=
+"><a href=3D"https://www.pythontutorial.net/python-oop/python-__bool__/">__=
+bool__</a></li><li id=3D"menu-item-2603" class=3D"menu-item menu-item-type-=
+post_type menu-item-object-page menu-item-2603"><a href=3D"https://www.pyth=
+ontutorial.net/python-oop/python-__del__/">__del__</a></li></ul></div></sec=
+tion><section id=3D"nav_menu-41" class=3D"widget widget_nav_menu"><h2 class=
+=3D"widget-title">Property</h2><div class=3D"menu-oop-property-container"><=
+ul id=3D"menu-oop-property" class=3D"menu"><li id=3D"menu-item-2611" class=
+=3D"menu-item menu-item-type-post_type menu-item-object-page menu-item-2611=
+"><a href=3D"https://www.pythontutorial.net/python-oop/python-properties/">=
+Property</a></li><li id=3D"menu-item-2610" class=3D"menu-item menu-item-typ=
+e-post_type menu-item-object-page menu-item-2610"><a href=3D"https://www.py=
+thontutorial.net/python-oop/python-property-decorator/">@property Decorator=
+</a></li><li id=3D"menu-item-2609" class=3D"menu-item menu-item-type-post_t=
+ype menu-item-object-page menu-item-2609"><a href=3D"https://www.pythontuto=
+rial.net/python-oop/python-readonly-property/">Readonly Property</a></li><l=
+i id=3D"menu-item-2608" class=3D"menu-item menu-item-type-post_type menu-it=
+em-object-page menu-item-2608"><a href=3D"https://www.pythontutorial.net/py=
+thon-oop/python-delete-property/">Delete Property</a></li></ul></div></sect=
+ion><section id=3D"nav_menu-42" class=3D"widget widget_nav_menu"><h2 class=
+=3D"widget-title">Single Inheritance</h2><div class=3D"menu-oop-inheritance=
+-container"><ul id=3D"menu-oop-inheritance" class=3D"menu"><li id=3D"menu-i=
+tem-2720" class=3D"menu-item menu-item-type-post_type menu-item-object-page=
+ menu-item-2720"><a href=3D"https://www.pythontutorial.net/python-oop/pytho=
+n-inheritance/">Single Inheritance</a></li><li id=3D"menu-item-2721" class=
+=3D"menu-item menu-item-type-post_type menu-item-object-page menu-item-2721=
+"><a href=3D"https://www.pythontutorial.net/python-oop/python-overriding-me=
+thod/">Overriding Methods</a></li><li id=3D"menu-item-2722" class=3D"menu-i=
+tem menu-item-type-post_type menu-item-object-page menu-item-2722"><a href=
+=3D"https://www.pythontutorial.net/python-oop/python-super/">super()</a></l=
+i><li id=3D"menu-item-2723" class=3D"menu-item menu-item-type-post_type men=
+u-item-object-page menu-item-2723"><a href=3D"https://www.pythontutorial.ne=
+t/python-oop/python-__slots__/">__slots__</a></li><li id=3D"menu-item-2724"=
+ class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-ite=
+m-2724"><a href=3D"https://www.pythontutorial.net/python-oop/python-abstrac=
+t-class/">Abstract Classes</a></li></ul></div></section><section id=3D"nav_=
+menu-45" class=3D"widget widget_nav_menu"><h2 class=3D"widget-title">Enumer=
+ations</h2><div class=3D"menu-oop-enumeration-container"><ul id=3D"menu-oop=
+-enumeration" class=3D"menu"><li id=3D"menu-item-2920" class=3D"menu-item m=
+enu-item-type-post_type menu-item-object-page current-menu-item page_item p=
+age-item-2908 current_page_item menu-item-2920"><a href=3D"https://www.pyth=
+ontutorial.net/python-oop/python-enumeration/" aria-current=3D"page">Enumer=
+ation</a></li><li id=3D"menu-item-2932" class=3D"menu-item menu-item-type-p=
+ost_type menu-item-object-page menu-item-2932"><a href=3D"https://www.pytho=
+ntutorial.net/python-oop/python-enum-unique/">Enum aliases &amp; @enum.uniq=
+ue Decorator</a></li><li id=3D"menu-item-2919" class=3D"menu-item menu-item=
+-type-post_type menu-item-object-page menu-item-2919"><a href=3D"https://ww=
+w.pythontutorial.net/python-oop/python-enum-class/">Customize &amp; Extend =
+Enum Classes</a></li><li id=3D"menu-item-2940" class=3D"menu-item menu-item=
+-type-post_type menu-item-object-page menu-item-2940"><a href=3D"https://ww=
+w.pythontutorial.net/python-oop/python-enum-auto/">Enum auto</a></li></ul><=
+/div></section><section id=3D"nav_menu-44" class=3D"widget widget_nav_menu"=
+><h2 class=3D"widget-title">SOLID Principles</h2><div class=3D"menu-oop-sol=
+id-container"><ul id=3D"menu-oop-solid" class=3D"menu"><li id=3D"menu-item-=
+2906" class=3D"menu-item menu-item-type-post_type menu-item-object-page men=
+u-item-2906"><a href=3D"https://www.pythontutorial.net/python-oop/python-si=
+ngle-responsibility-principle/">Single Responsibility Principle</a></li><li=
+ id=3D"menu-item-2905" class=3D"menu-item menu-item-type-post_type menu-ite=
+m-object-page menu-item-2905"><a href=3D"https://www.pythontutorial.net/pyt=
+hon-oop/python-open-closed-principle/">Open=E2=80=93closed principle</a></l=
+i><li id=3D"menu-item-2904" class=3D"menu-item menu-item-type-post_type men=
+u-item-object-page menu-item-2904"><a href=3D"https://www.pythontutorial.ne=
+t/python-oop/python-liskov-substitution-principle/">Liskov Substitution Pri=
+nciple</a></li><li id=3D"menu-item-2903" class=3D"menu-item menu-item-type-=
+post_type menu-item-object-page menu-item-2903"><a href=3D"https://www.pyth=
+ontutorial.net/python-oop/python-interface-segregation-principle/">Interfac=
+e Segregation Principle</a></li><li id=3D"menu-item-2902" class=3D"menu-ite=
+m menu-item-type-post_type menu-item-object-page menu-item-2902"><a href=3D=
+"https://www.pythontutorial.net/python-oop/python-dependency-inversion-prin=
+ciple/">Dependency Inversion Principle</a></li></ul></div></section><sectio=
+n id=3D"nav_menu-48" class=3D"widget widget_nav_menu"><h2 class=3D"widget-t=
+itle">Multiple Inheritance</h2><div class=3D"menu-oop-multiple-inheritance-=
+container"><ul id=3D"menu-oop-multiple-inheritance" class=3D"menu"><li id=
+=3D"menu-item-3091" class=3D"menu-item menu-item-type-post_type menu-item-o=
+bject-page menu-item-3091"><a href=3D"https://www.pythontutorial.net/python=
+-oop/python-multiple-inheritance/">Multiple Inheritance</a></li></ul></div>=
+</section><section id=3D"nav_menu-43" class=3D"widget widget_nav_menu"><h2 =
+class=3D"widget-title">Descriptors</h2><div class=3D"menu-oop-descriptors-c=
+ontainer"><ul id=3D"menu-oop-descriptors" class=3D"menu"><li id=3D"menu-ite=
+m-2756" class=3D"menu-item menu-item-type-post_type menu-item-object-page m=
+enu-item-2756"><a href=3D"https://www.pythontutorial.net/python-oop/python-=
+descriptors/">Descriptors</a></li><li id=3D"menu-item-2755" class=3D"menu-i=
+tem menu-item-type-post_type menu-item-object-page menu-item-2755"><a href=
+=3D"https://www.pythontutorial.net/python-oop/python-data-descriptors/">Dat=
+a vs. Non-data Descriptors</a></li></ul></div></section><section id=3D"text=
+blockswidget-11" class=3D"widget widget_textblockswidget"><div class=3D"tex=
+t-block sidebar-bottom"><div class=3D"ad ad-300"><div data-aaad=3D"true" da=
+ta-aa-adunit=3D"/21722279357/300x250_OB_pythontutorial_3"></div></div></div=
+></section><section id=3D"nav_menu-46" class=3D"widget widget_nav_menu"><h2=
+ class=3D"widget-title">Meta Programming</h2><div class=3D"menu-oop-meta-pr=
+ogramming-container"><ul id=3D"menu-oop-meta-programming" class=3D"menu"><l=
+i id=3D"menu-item-2962" class=3D"menu-item menu-item-type-post_type menu-it=
+em-object-page menu-item-2962"><a href=3D"https://www.pythontutorial.net/py=
+thon-oop/python-__new__/">__new__ Method</a></li><li id=3D"menu-item-2961" =
+class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-item=
+-2961"><a href=3D"https://www.pythontutorial.net/python-oop/python-type-cla=
+ss/">type Class</a></li><li id=3D"menu-item-2967" class=3D"menu-item menu-i=
+tem-type-post_type menu-item-object-page menu-item-2967"><a href=3D"https:/=
+/www.pythontutorial.net/python-oop/python-metaclass/">Metaclass</a></li><li=
+ id=3D"menu-item-2991" class=3D"menu-item menu-item-type-post_type menu-ite=
+m-object-page menu-item-2991"><a href=3D"https://www.pythontutorial.net/pyt=
+hon-oop/python-metaclass-example/">Metaclass Example</a></li></ul></div></s=
+ection><section id=3D"nav_menu-47" class=3D"widget widget_nav_menu"><h2 cla=
+ss=3D"widget-title">Exceptions</h2><div class=3D"menu-oop-exceptions-contai=
+ner"><ul id=3D"menu-oop-exceptions" class=3D"menu"><li id=3D"menu-item-3090=
+" class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-it=
+em-3090"><a href=3D"https://www.pythontutorial.net/python-oop/python-except=
+ions/">Exceptions</a></li><li id=3D"menu-item-3089" class=3D"menu-item menu=
+-item-type-post_type menu-item-object-page menu-item-3089"><a href=3D"https=
+://www.pythontutorial.net/python-oop/python-exception-handling/">Exception =
+Handling</a></li><li id=3D"menu-item-3088" class=3D"menu-item menu-item-typ=
+e-post_type menu-item-object-page menu-item-3088"><a href=3D"https://www.py=
+thontutorial.net/python-oop/python-raise-exception/">Raise Exceptions</a></=
+li><li id=3D"menu-item-3096" class=3D"menu-item menu-item-type-post_type me=
+nu-item-object-page menu-item-3096"><a href=3D"https://www.pythontutorial.n=
+et/python-oop/python-raise-from/">Raise From</a></li><li id=3D"menu-item-31=
+07" class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-3107"><a href=3D"https://www.pythontutorial.net/python-oop/python-cust=
+om-exception/">Custom Exceptions</a></li></ul></div></section></aside></div=
+><footer id=3D"colophon" class=3D"site-footer"><div class=3D"wrap"><div cla=
+ss=3D"site-footer-widgets"><div class=3D"site-footer-sidebar widget"><h2 cl=
+ass=3D"widget-title">About pythontutorial.net</h2><div class=3D"textwidget =
+custom-html-widget">Pythontutorial.net helps you master Python programming =
+from scratch fast.</div><h2 class=3D"widget-title">Site Links</h2><div clas=
+s=3D"menu-site-links-container"><ul id=3D"menu-site-links" class=3D"menu"><=
+li id=3D"menu-item-3459" class=3D"menu-item menu-item-type-custom menu-item=
+-object-custom menu-item-3459"><a target=3D"_blank" rel=3D"noopener" href=
+=3D"https://www.pythontutorial.net/donation/">Donation =E2=9D=A4=EF=B8=8F</=
+a></li><li id=3D"menu-item-21" class=3D"menu-item menu-item-type-post_type =
+menu-item-object-page menu-item-home menu-item-21"><a href=3D"https://www.p=
+ythontutorial.net/">Home</a></li><li id=3D"menu-item-20" class=3D"menu-item=
+ menu-item-type-post_type menu-item-object-page menu-item-20"><a href=3D"ht=
+tps://www.pythontutorial.net/contact/">Contact</a></li><li id=3D"menu-item-=
+19" class=3D"menu-item menu-item-type-post_type menu-item-object-page menu-=
+item-19"><a href=3D"https://www.pythontutorial.net/about/">About</a></li><l=
+i id=3D"menu-item-22" class=3D"menu-item menu-item-type-post_type menu-item=
+-object-page menu-item-privacy-policy menu-item-22"><a href=3D"https://www.=
+pythontutorial.net/privacy-policy/">Privacy Policy</a></li></ul></div></div=
+><div class=3D"site-footer-sidebar widget"><h2 class=3D"widget-title">Recen=
+t Python Tutorials</h2><ul><li><a href=3D"https://www.pythontutorial.net/dj=
+ango-tutorial/django-aggregate/" title=3D"Django Aggregate">Django Aggregat=
+e</a></li><li><a href=3D"https://www.pythontutorial.net/django-tutorial/dja=
+ngo-exists/" title=3D"Django exists">Django exists</a></li><li><a href=3D"h=
+ttps://www.pythontutorial.net/django-tutorial/django-group-by/" title=3D"Dj=
+ango Group By">Django Group By</a></li><li><a href=3D"https://www.pythontut=
+orial.net/django-tutorial/django-limit-offset/" title=3D"Django Limit Offse=
+t">Django Limit Offset</a></li><li><a href=3D"https://www.pythontutorial.ne=
+t/django-tutorial/django-order_by/" title=3D"Django order_by">Django order_=
+by</a></li></ul></div><div class=3D"site-footer-sidebar widget"><h2 class=
+=3D"widget-title">Python References</h2><div class=3D"menu-python-reference=
+s-container"><ul id=3D"menu-python-references" class=3D"menu"><li id=3D"men=
+u-item-1949" class=3D"menu-item menu-item-type-post_type menu-item-object-p=
+age menu-item-1949"><a href=3D"https://www.pythontutorial.net/python-string=
+-methods/">Python String Methods</a></li><li id=3D"menu-item-4772" class=3D=
+"menu-item menu-item-type-post_type menu-item-object-page menu-item-4772"><=
+a href=3D"https://www.pythontutorial.net/python-built-in-functions/">Python=
+ Built-in Functions</a></li><li id=3D"menu-item-1950" class=3D"menu-item me=
+nu-item-type-custom menu-item-object-custom menu-item-1950"><a target=3D"_b=
+lank" rel=3D"noopener" href=3D"https://www.mysqltutorial.org/python-mysql/"=
+>Python MySQL</a></li><li id=3D"menu-item-1951" class=3D"menu-item menu-ite=
+m-type-custom menu-item-object-custom menu-item-1951"><a target=3D"_blank" =
+rel=3D"noopener" href=3D"https://www.postgresqltutorial.com/postgresql-pyth=
+on/">Python PostgreSQL</a></li><li id=3D"menu-item-1952" class=3D"menu-item=
+ menu-item-type-custom menu-item-object-custom menu-item-1952"><a target=3D=
+"_blank" rel=3D"noopener" href=3D"https://www.oracletutorial.com/python-ora=
+cle/">Python Oracle</a></li><li id=3D"menu-item-1953" class=3D"menu-item me=
+nu-item-type-custom menu-item-object-custom menu-item-1953"><a target=3D"_b=
+lank" rel=3D"noopener" href=3D"https://www.sqlitetutorial.net/sqlite-python=
+/">Python SQLite</a></li></ul></div></div></div><div class=3D"site-info"><d=
+iv class=3D"textwidget custom-html-widget"><p>Copyright =C2=A9 2023 =C2=B7 =
+By <a href=3D"https://www.pythontutorial.net/" title=3D"Python Tutorial">py=
+thontutorial.net</a>.All Rights Reserved.</p></div></div></div></footer></d=
+iv>   <div id=3D"back-to-top" class=3D""><svg viewBox=3D"0 0 24 24"><path d=
+=3D"M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg></div><div=
+ style=3D"display: none; height: 16px; width: 16px; position: fixed; z-inde=
+x: 100000000; cursor: pointer; padding: 0px; margin: 0px; opacity: 0.5;"></=
+div></body></html>
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d9786cc2-0d3e-4715-a73d-492833fb7de1@mhtml.blink
+
+@charset "utf-8";
+
+#back-to-top { background: var(--button-bg-color); border-radius: 50%; bott=
+om: 20px; box-shadow: rgba(0, 0, 0, 0.26) 0px 2px 5px 0px; color: var(--but=
+ton-color); cursor: pointer; display: block; height: 56px; opacity: 1; outl=
+ine: 0px; position: fixed; right: 20px; -webkit-tap-highlight-color: transp=
+arent; transition: bottom 0.2s ease 0s, opacity 0.2s ease 0s; user-select: =
+none; width: 56px; z-index: 1; }
+
+#back-to-top svg { display: block; fill: currentcolor; height: 24px; margin=
+: 16px auto 0px; width: 24px; }
+
+#back-to-top.hidden { bottom: -56px; opacity: 0; }
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-dbd414ef-b307-4cd0-bb1d-3a04cb20bf33@mhtml.blink
+
+@charset "utf-8";
+
+html { line-height: 1.15; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+main { display: block; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+a { background-color: transparent; }
+
+img { border-style: none; }
+
+button, input, textarea { font-family: inherit; font-size: 100%; line-heigh=
+t: 1.15; margin: 0px; }
+
+button, input { overflow: visible; }
+
+button { text-transform: none; }
+
+[type=3D"button"], [type=3D"submit"], button { appearance: button; }
+
+textarea { overflow: auto; }
+
+[type=3D"search"] { appearance: textfield; outline-offset: -2px; }
+
+[type=3D"search"]::-webkit-search-decoration { appearance: none; }
+
+::-webkit-file-upload-button { appearance: button; font: inherit; }
+
+.site-header { border-bottom: 1px solid var(--header-border-color); }
+
+.logo { display: flex; justify-content: center; align-items: center; backgr=
+ound: var(--logo-url) no-repeat center center; height: var(--logo-height); =
+width: var(--logo-width); }
+
+.header-wrapper { position: relative; box-sizing: border-box; padding: 0px;=
+ margin: 0px; }
+
+.site-branding { flex-shrink: 0; flex-grow: 0; padding: 0px 0.5rem; }
+
+.site-branding a { display: block; padding: 0.5rem; }
+
+.site-navigation { display: flex; align-items: center; justify-content: cen=
+ter; }
+
+.site-navigation a { text-transform: uppercase; letter-spacing: 0.05em; fon=
+t-size: 0.8rem; font-weight: 500; color: var(--menu-color); padding: 0.5rem=
+; }
+
+.site-navigation a:visited { color: var(--menu-color); }
+
+.menu-toggle { display: block; background: var(--hamburger-icon) no-repeat =
+center center; height: 50px; width: 50px; outline: 0px; border: none; }
+
+.site-menu { position: absolute; top: 100%; right: 0px; left: 0px; z-index:=
+ -1; visibility: hidden; opacity: 0; transform: translateY(-100%); padding:=
+ 0px; margin: 0px; }
+
+.site-menu li { list-style: none; border-bottom: solid 1px var(--border-col=
+or); padding: 0.5rem 0px; }
+
+.site-menu li:first-child { border-top: solid 1px var(--border-color); }
+
+.site-menu a { display: block; }
+
+.sub-menu { display: none; }
+
+.menu-item-has-children a { display: flex; justify-content: space-between; =
+align-items: center; }
+
+.menu-item-has-children > a::after { content: ""; -webkit-mask-image: ; -we=
+bkit-mask-position-x: ; -webkit-mask-position-y: ; -webkit-mask-repeat-x: ;=
+ -webkit-mask-repeat-y: ; -webkit-mask-origin: ; -webkit-mask-clip: ; mask:=
+ var(--down-icon); -webkit-mask-size: cover; display: inline-block; height:=
+ 1rem; width: 1rem; background-color: var(--text-color); margin-left: 5px; =
+}
+
+.menu-item-has-children .sub-menu li { border: none; }
+
+.menu-item-has-children .sub-menu a { font-size: 0.85rem; margin-left: 1rem=
+; text-transform: none; }
+
+svg { fill: currentcolor; }
+
+.switch-theme { padding: 0.25rem 1rem; border-radius: 1rem; width: 20px; he=
+ight: 20px; }
+
+.switch-theme svg { margin-right: 0.25rem; }
+
+html .light-mode-icon { display: none; }
+
+html .dark-mode-icon { display: inline; }
+
+@media (min-width: 768px) {
+  .menu-item-has-children .sub-menu a { margin-left: 0px; font-size: 0.8rem=
+; }
+  .menu-toggle { display: none; }
+  .site-branding a { padding: 0px; }
+  .site-menu { opacity: 1; visibility: visible; position: relative; top: 0p=
+x; left: 0px; z-index: 1; transform: translateY(0px); display: flex; justif=
+y-content: flex-end; align-items: center; }
+  .site-navigation a { padding: 1.25rem 0.75rem; }
+  .site-menu li { padding: 0px; }
+  .sub-menu a { padding: 0.65rem; }
+  .menu-item-has-children { position: relative; }
+  .site-menu .sub-menu { display: none; background-color: var(--submenu-bg-=
+color); border: solid 1px var(--border-color); border-radius: 0.25rem; min-=
+width: 200px; }
+  .site-menu > .menu-item-has-children > a::after { content: ""; -webkit-ma=
+sk-image: ; -webkit-mask-position-x: ; -webkit-mask-position-y: ; -webkit-m=
+ask-repeat-x: ; -webkit-mask-repeat-y: ; -webkit-mask-origin: ; -webkit-mas=
+k-clip: ; mask: var(--down-icon); -webkit-mask-size: cover; display: inline=
+-block; height: 1rem; width: 1rem; background-color: var(--text-color); }
+  .site-menu > .menu-item { border-bottom: 1px solid transparent; }
+  .site-menu > .current-menu-item, .site-menu > .current-menu-parent { bord=
+er-bottom: solid 1px var(--current-color); }
+  .site-menu li:first-child, .site-menu li:last-child { border-top: none; }
+}
+
+.entry-content .wp-block-group > div { background-color: var(--body-bg-colo=
+r); border: solid 1px var(--section-border-color); border-radius: 15px; box=
+-shadow: rgba(84, 94, 111, 0.2) 0px 3px 0px; padding: 20px; margin: 0px 0px=
+ 30px; }
+
+.entry-content .wp-block-group > div ul { margin: 0px; }
+
+.entry-content .wp-block-group > div h2 { padding-left: 0px; margin: 0px 0p=
+x 10px; }
+
+.search-form { margin: 1rem 0px; }
+
+.page-header { padding: 0px 0.5rem; margin-bottom: 1.5rem; }
+
+.alignright { float: right; margin: 0.5em 0px 0.5em 1em; }
+
+.wp-block-code code::-webkit-scrollbar { width: 11px; }
+
+.wp-block-code code { }
+
+.wp-block-code code::-webkit-scrollbar-track { background: var(--scrollbar-=
+bg-color); }
+
+.wp-block-code code::-webkit-scrollbar-thumb { background-color: var(--scro=
+llbar-thumb-color); border-radius: 6px; border: 3px solid var(--scrollbar-b=
+g-color); }
+
+.page-search-label { display: block; margin-bottom: 1rem; }
+
+.page-header .page-title { padding: 0px; margin: 0px; line-height: 1; font-=
+size: 3rem; text-align: center; }
+
+:root { color-scheme: light; --font-family:-apple-system,BlinkMacSystemFont=
+,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif=
+; --font-family-code:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Libe=
+ration Mono,Courier New,monospace; --body-bg-color:#fff; --text-color:#2125=
+29; --primary-color:#0052ea; --header-bg-color:#fff; --header-border-color:=
+#e7ebed; --heading-color:#374151; --link-color:#0052ea; --link-color-hover:=
+#0052ea; --title-color:#0052ea; --code-badge-color:#fff; --footer-bg-color:=
+#f7faff; --footer-color:#212529; --footer-link-color:#0052ea; --footer-link=
+-color-hover:#377dff; --ads-label-color:#666; --down-icon:url("data:image/s=
+vg+xml;utf8,"); --hamburger-icon:url("data:image/svg+xml;utf8,"); --x-icon:=
+url("data:image/svg+xml;utf8,"); --current-color:#0052ea; --menu-color:#677=
+788; --border-color:#f4f4f4; --hover-background-color:#f4f4f4; --menu-backg=
+round-color:#fff; --submenu-bg-color:#fff; --toggle-color:#f4f4f4; --button=
+-bg-color:#0d6efd; --button-color:#fff; --button-bg-color-hover:#0b5ed7; --=
+button-color-hover:#fff; --button-border-color:#0a58ca; --section-border-co=
+lor:#ddd; --inline-code-bg-color:#f5f5f5; --inline-code-color:#da1039; --in=
+put-bg-color:#fff; --input-color:#212529; --input-border-color:#e3e3e3; --i=
+nput-border-focus-color:#e3e3e3; --image-filter:grayscale(0%); --themeable-=
+image-filter:none; --svg-color:#323330; --page-nav-bg-color:#fff; --mark-bg=
+-color:#fff6ea; --feature-image-filter:none; --fancy-list-color:rgba(0, 0, =
+0, 0.15); --output-bg-color:#f9fafb; --output-border-color:#e7ebed; --post-=
+box-shadow:rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1=
+px 3px -1px; --post-border:none; --scrollbar-bg-color:#282828; --scrollbar-=
+thumb-color:gray; }
+
+.wp-block-image { margin-bottom: 1em; }
+
+.wp-block-image img { max-width: 100%; }
+
+.wp-block-image:not(.is-style-rounded) img { border-radius: inherit; }
+
+.wp-block-image .alignright { display: table; }
+
+.wp-block-image .alignright { float: right; margin: 0.5em 0px 0.5em 1em; }
+
+.feature-page { display: flex; align-items: flex-start; padding: 0px; margi=
+n: 0px 0px 1rem; }
+
+.feature-page > .feature-image { width: 150px; height: 150px; margin: 0px 1=
+rem 0px 0px; border-radius: 50%; background-color: var(--feature-image-bg-c=
+olor, "#fff"); display: flex; justify-content: center; align-items: center;=
+ }
+
+.feature-page > .feature-body { flex: 1 1 0%; }
+
+.feature-page h3 { margin: 0px 0px 0.5rem; }
+
+html { background: var(--body-bg-color); color: var(--text-color); font-siz=
+e: 1rem; }
+
+body { font-family: var(--font-family); font-size: 1rem; line-height: 1.8; =
+}
+
+img { height: auto; max-width: 100%; }
+
+figure { margin: 1em 0px; }
+
+h1, h2, h3 { font-weight: 400; color: var(--heading-color); padding: 0px; }
+
+h1 { font-size: 1.875rem; margin-bottom: 1.7rem; }
+
+h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+
+h3 { font-size: 1.3125rem; margin-bottom: 0.875rem; }
+
+.screen-reader-text { border: 0px; clip: rect(1px, 1px, 1px, 1px); clip-pat=
+h: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; w=
+idth: 1px; outline-style: dashed; outline-width: 0.125rem; outline-color: v=
+ar(--text-color); position: fixed !important; overflow-wrap: normal !import=
+ant; }
+
+a { color: var(--link-color); text-decoration: none; }
+
+a:visited { color: var(--link-color); }
+
+ul { padding: 0px; }
+
+.header-wrapper { display: flex; justify-content: space-between; align-item=
+s: center; }
+
+article { padding: 0px 0.5rem; }
+
+aside { padding: 1rem 0.5rem; }
+
+.entry-title { color: var(--title-color); font-weight: 400; }
+
+.widget-title { font-weight: 700; font-size: 0.8rem; letter-spacing: 1px; t=
+ext-transform: uppercase; padding: 0px 0px 1rem; margin: 0px; }
+
+.widget_search { margin-bottom: 1.5rem; }
+
+.widget .menu { margin: 0px 0px 1.5rem; }
+
+.ad { text-align: left; margin: 0.5rem 0px; }
+
+p code { font-family: var(--font-family-code); font-size: 0.875rem; font-we=
+ight: 400; background-color: var(--inline-code-bg-color); color: var(--inli=
+ne-code-color); padding: 0.25em 0.5em; border-radius: 3px; }
+
+.wp-block-code code { font-family: var(--font-family-code); white-space: pr=
+e !important; }
+
+code.hljs { padding: 1rem; }
+
+.ad-300 { width: 300px; height: 280px; overflow: hidden; }
+
+.ad::before { content: "Advertisements"; color: var(--ads-label-color); fon=
+t-size: 10px; display: block; text-transform: uppercase; text-align: center=
+; }
+
+.search-form { overflow: hidden; width: 100%; }
+
+.search-form input[type=3D"search"] { border: 1px solid var(--input-border-=
+color); border-radius: 3px; font-size: 1rem; padding: 16px; width: 100%; ou=
+tline-offset: -2px; outline: 0px; background-color: var(--input-bg-color); =
+color: var(--input-color); }
+
+.search-form input[type=3D"submit"] { border: 0px; clip: rect(0px, 0px, 0px=
+, 0px); height: 1px; margin: -1px; padding: 0px; position: absolute; width:=
+ 1px; }
+
+.entry-content ul { padding-left: 1rem; }
+
+.entry-content li { margin: 0px 0px 0.5rem 1rem; }
+
+.widget ul { margin: 0px; padding: 0px; }
+
+.widget li { list-style-type: none; text-align: left; overflow-wrap: break-=
+word; font-size: 1rem; padding: 0.25rem 0px; }
+
+.widget li:first-child { padding-top: 0px; }
+
+.widget li a { display: inline-block; padding: 0px 0px 0.25rem; }
+
+.entry-content .wp-block-group ul { padding-left: 0px; list-style: none; }
+
+.entry-content .wp-block-group ul > li::before { content: ""; border-color:=
+ transparent rgb(204, 204, 204); border-style: solid; border-width: 0.3em 0=
+px 0.3em 0.35em; display: block; height: 0px; width: 0px; left: -0.75rem; t=
+op: 1.25rem; position: relative; background: 0px 0px; margin: 0px; }
+
+.wp-block-image .alignright { float: right; margin: 0.5em 0px 0.5em 1em; }
+
+@media (min-width: 768px) {
+  body { font-size: 1rem; }
+}
+
+@media (min-width: 1140px) {
+  body { font-size: 1rem; }
+  .site { margin: 0px auto; display: flex; flex-direction: column; overflow=
+: hidden; }
+  .site-inner { display: flex; justify-content: space-between; }
+  .site-main { width: 730px; }
+  aside { width: 300px; padding: 1rem 0.5rem; }
+  .wrap { width: 1050px; margin: 0px auto; }
+  .site-header { background: var(--header-bg-color); width: 100%; }
+  .header-wrapper { display: flex; justify-content: space-between; align-it=
+ems: center; }
+}
+
+.wth-title { display: inline-block; margin-right: 1rem; }
+
+.wth-btn { display: inline-block; border: none; outline: 0px; padding: 10px=
+ 25px; border-radius: 3px; font-size: 0.9rem; }
+
+.wth-form-wrapper { margin-bottom: 4rem; }
+
+.wth-btn-submit { background: var(--button-bg-color); color: var(--button-c=
+olor); border: solid 1px var(--button-border-color); margin-top: 10px; }
+
+.wth-btn-cancel { background-color: rgb(255, 255, 255); border: solid 1px v=
+ar(--button-bg-color); color: var(--button-bg-color); margin-top: 10px; }
+
+.wth-message { background-color: var(--input-bg-color); border: 1px solid v=
+ar(--input-border-color); min-height: 150px; width: 96%; padding: 2%; displ=
+ay: block; border-radius: 5px; outline: 0px; color: var(--text-color); }
+
+.wth-form { display: block; text-align: left; }
+
+.wth-form.hidden { display: none; }
+
+.hljs { display: block; overflow-x: auto; padding: 0.5em; background: rgb(4=
+0, 40, 40); }
+
+.hljs { color: rgb(235, 219, 178); }
+
+.hljs-keyword { color: rgb(251, 73, 52); }
+
+.hljs-title { color: rgb(131, 165, 152); }
+
+.hljs-meta { color: rgb(254, 128, 25); }
+
+.hljs-class { color: rgb(142, 192, 124); }
+
+.hljs-comment { color: rgb(146, 131, 116); }
+
+.hljs-comment { font-style: italic; }
+
+.contact-form { box-sizing: border-box; max-width: 90%; padding: 0px 1%; li=
+ne-height: 1.7; }
+
+@media (min-width: 768px) {
+  .contact-form { max-width: 500px; padding: 0px 0.5rem; line-height: 1.7; =
+}
+}
+
+.contact-form .form-field { display: block; margin-bottom: 0.5rem; }
+
+.contact-form label { display: block; }
+
+.contact-form .error { color: red; }
+
+.contact-form input[type=3D"email"], .contact-form input[type=3D"text"], .c=
+ontact-form textarea { background-color: var(--input-bg-color); color: var(=
+--input-color); border: 1px solid var(--input-border-color); width: 100%; p=
+adding: 0.75rem; outline: 0px; }
+
+.contact-form input[type=3D"submit"] { display: inline-block; outline: 0px;=
+ padding: 10px 25px; border-radius: 3px; font-size: 0.9rem; background: var=
+(--button-bg-color); color: var(--button-color); border: solid 1px var(--bu=
+tton-border-color); }
+
+.contact-form .honeypot { display: none; }
+
+#carbonads { position: relative; display: flex; width: 300px; height: 250px=
+; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.15) 0px=
+ 0px 1px 1px inset; text-align: center; font-family: -apple-system, BlinkMa=
+cSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica=
+ Neue", Helvetica, Arial, sans-serif; justify-content: center; align-items:=
+ center; }
+
+#carbonads a { color: rgb(17, 17, 17); text-decoration: none; }
+
+#carbonads a:hover { color: rgb(17, 17, 17); }
+
+#carbonads span { display: block; overflow: hidden; }
+
+.carbon-img { display: block; margin: 0px 0px 8px; line-height: 1; }
+
+.carbon-img img { width: 150px; height: auto; max-width: 150px !important; =
+}
+
+.carbon-text { display: block; margin-bottom: 8px; padding: 0px 10px; font-=
+weight: 500; font-size: 16px; line-height: 1.35; }
+
+.carbon-poweredby { position: absolute; right: 10px; bottom: 10px; display:=
+ block; padding: 5px 6px; border-radius: 2.5px; background-color: rgb(117, =
+102, 249); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 6=
+00; font-size: 8px; line-height: 1; color: rgb(255, 255, 255) !important; }
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3c66a328-a1ed-43c1-a214-6f45a75b7e6e@mhtml.blink
+
+@charset "utf-8";
+
+body { --wp--preset--color--black: #000000; --wp--preset--color--cyan-bluis=
+h-gray: #abb8c3; --wp--preset--color--white: #ffffff; --wp--preset--color--=
+pale-pink: #f78da7; --wp--preset--color--vivid-red: #cf2e2e; --wp--preset--=
+color--luminous-vivid-orange: #ff6900; --wp--preset--color--luminous-vivid-=
+amber: #fcb900; --wp--preset--color--light-green-cyan: #7bdcb5; --wp--prese=
+t--color--vivid-green-cyan: #00d084; --wp--preset--color--pale-cyan-blue: #=
+8ed1fc; --wp--preset--color--vivid-cyan-blue: #0693e3; --wp--preset--color-=
+-vivid-purple: #9b51e0; --wp--preset--gradient--vivid-cyan-blue-to-vivid-pu=
+rple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%); --=
+wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient=
+(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%); --wp--preset--gradient--l=
+uminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(2=
+52,185,0,1) 0%,rgba(255,105,0,1) 100%); --wp--preset--gradient--luminous-vi=
+vid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(20=
+7,46,46) 100%); --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray=
+: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%); --wp--=
+preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,=
+220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(25=
+1,105,98) 80%,rgb(254,248,76) 100%); --wp--preset--gradient--blush-light-pu=
+rple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%); --=
+wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,16=
+5) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%); --wp--preset--gradient--lumin=
+ous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rg=
+b(65,88,208) 100%); --wp--preset--gradient--pale-ocean: linear-gradient(135=
+deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%); --wp--p=
+reset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%=
+,rgb(113,206,126) 100%); --wp--preset--gradient--midnight: linear-gradient(=
+135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%); --wp--preset--duotone--dark-g=
+rayscale: url("#wp-duotone-dark-grayscale"); --wp--preset--duotone--graysca=
+le: url("#wp-duotone-grayscale"); --wp--preset--duotone--purple-yellow: url=
+("#wp-duotone-purple-yellow"); --wp--preset--duotone--blue-red: url("#wp-du=
+otone-blue-red"); --wp--preset--duotone--midnight: url("#wp-duotone-midnigh=
+t"); --wp--preset--duotone--magenta-yellow: url("#wp-duotone-magenta-yellow=
+"); --wp--preset--duotone--purple-green: url("#wp-duotone-purple-green"); -=
+-wp--preset--duotone--blue-orange: url("#wp-duotone-blue-orange"); --wp--pr=
+eset--font-size--small: 13px; --wp--preset--font-size--medium: 20px; --wp--=
+preset--font-size--large: 36px; --wp--preset--font-size--x-large: 42px; }
+
+.has-black-color { color: var(--wp--preset--color--black)  !important; }
+
+.has-cyan-bluish-gray-color { color: var(--wp--preset--color--cyan-bluish-g=
+ray)  !important; }
+
+.has-white-color { color: var(--wp--preset--color--white)  !important; }
+
+.has-pale-pink-color { color: var(--wp--preset--color--pale-pink)  !importa=
+nt; }
+
+.has-vivid-red-color { color: var(--wp--preset--color--vivid-red)  !importa=
+nt; }
+
+.has-luminous-vivid-orange-color { color: var(--wp--preset--color--luminous=
+-vivid-orange)  !important; }
+
+.has-luminous-vivid-amber-color { color: var(--wp--preset--color--luminous-=
+vivid-amber)  !important; }
+
+.has-light-green-cyan-color { color: var(--wp--preset--color--light-green-c=
+yan)  !important; }
+
+.has-vivid-green-cyan-color { color: var(--wp--preset--color--vivid-green-c=
+yan)  !important; }
+
+.has-pale-cyan-blue-color { color: var(--wp--preset--color--pale-cyan-blue)=
+  !important; }
+
+.has-vivid-cyan-blue-color { color: var(--wp--preset--color--vivid-cyan-blu=
+e)  !important; }
+
+.has-vivid-purple-color { color: var(--wp--preset--color--vivid-purple)  !i=
+mportant; }
+
+.has-black-background-color { background-color: var(--wp--preset--color--bl=
+ack)  !important; }
+
+.has-cyan-bluish-gray-background-color { background-color: var(--wp--preset=
+--color--cyan-bluish-gray)  !important; }
+
+.has-white-background-color { background-color: var(--wp--preset--color--wh=
+ite)  !important; }
+
+.has-pale-pink-background-color { background-color: var(--wp--preset--color=
+--pale-pink)  !important; }
+
+.has-vivid-red-background-color { background-color: var(--wp--preset--color=
+--vivid-red)  !important; }
+
+.has-luminous-vivid-orange-background-color { background-color: var(--wp--p=
+reset--color--luminous-vivid-orange)  !important; }
+
+.has-luminous-vivid-amber-background-color { background-color: var(--wp--pr=
+eset--color--luminous-vivid-amber)  !important; }
+
+.has-light-green-cyan-background-color { background-color: var(--wp--preset=
+--color--light-green-cyan)  !important; }
+
+.has-vivid-green-cyan-background-color { background-color: var(--wp--preset=
+--color--vivid-green-cyan)  !important; }
+
+.has-pale-cyan-blue-background-color { background-color: var(--wp--preset--=
+color--pale-cyan-blue)  !important; }
+
+.has-vivid-cyan-blue-background-color { background-color: var(--wp--preset-=
+-color--vivid-cyan-blue)  !important; }
+
+.has-vivid-purple-background-color { background-color: var(--wp--preset--co=
+lor--vivid-purple)  !important; }
+
+.has-black-border-color { border-color: var(--wp--preset--color--black)  !i=
+mportant; }
+
+.has-cyan-bluish-gray-border-color { border-color: var(--wp--preset--color-=
+-cyan-bluish-gray)  !important; }
+
+.has-white-border-color { border-color: var(--wp--preset--color--white)  !i=
+mportant; }
+
+.has-pale-pink-border-color { border-color: var(--wp--preset--color--pale-p=
+ink)  !important; }
+
+.has-vivid-red-border-color { border-color: var(--wp--preset--color--vivid-=
+red)  !important; }
+
+.has-luminous-vivid-orange-border-color { border-color: var(--wp--preset--c=
+olor--luminous-vivid-orange)  !important; }
+
+.has-luminous-vivid-amber-border-color { border-color: var(--wp--preset--co=
+lor--luminous-vivid-amber)  !important; }
+
+.has-light-green-cyan-border-color { border-color: var(--wp--preset--color-=
+-light-green-cyan)  !important; }
+
+.has-vivid-green-cyan-border-color { border-color: var(--wp--preset--color-=
+-vivid-green-cyan)  !important; }
+
+.has-pale-cyan-blue-border-color { border-color: var(--wp--preset--color--p=
+ale-cyan-blue)  !important; }
+
+.has-vivid-cyan-blue-border-color { border-color: var(--wp--preset--color--=
+vivid-cyan-blue)  !important; }
+
+.has-vivid-purple-border-color { border-color: var(--wp--preset--color--viv=
+id-purple)  !important; }
+
+.has-vivid-cyan-blue-to-vivid-purple-gradient-background { background: var(=
+--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple)  !important; }
+
+.has-light-green-cyan-to-vivid-green-cyan-gradient-background { background:=
+ var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan)  !import=
+ant; }
+
+.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background { ba=
+ckground: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivi=
+d-orange)  !important; }
+
+.has-luminous-vivid-orange-to-vivid-red-gradient-background { background: v=
+ar(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red)  !important;=
+ }
+
+.has-very-light-gray-to-cyan-bluish-gray-gradient-background { background: =
+var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray)  !importan=
+t; }
+
+.has-cool-to-warm-spectrum-gradient-background { background: var(--wp--pres=
+et--gradient--cool-to-warm-spectrum)  !important; }
+
+.has-blush-light-purple-gradient-background { background: var(--wp--preset-=
+-gradient--blush-light-purple)  !important; }
+
+.has-blush-bordeaux-gradient-background { background: var(--wp--preset--gra=
+dient--blush-bordeaux)  !important; }
+
+.has-luminous-dusk-gradient-background { background: var(--wp--preset--grad=
+ient--luminous-dusk)  !important; }
+
+.has-pale-ocean-gradient-background { background: var(--wp--preset--gradien=
+t--pale-ocean)  !important; }
+
+.has-electric-grass-gradient-background { background: var(--wp--preset--gra=
+dient--electric-grass)  !important; }
+
+.has-midnight-gradient-background { background: var(--wp--preset--gradient-=
+-midnight)  !important; }
+
+.has-small-font-size { font-size: var(--wp--preset--font-size--small)  !imp=
+ortant; }
+
+.has-medium-font-size { font-size: var(--wp--preset--font-size--medium)  !i=
+mportant; }
+
+.has-large-font-size { font-size: var(--wp--preset--font-size--large)  !imp=
+ortant; }
+
+.has-x-large-font-size { font-size: var(--wp--preset--font-size--x-large)  =
+!important; }
+
+.wp-block-navigation a:where(:not(.wp-element-button)) { color: inherit; }
+
+:where(.wp-block-columns.is-layout-flex) { gap: 2em; }
+
+.wp-block-pullquote { font-size: 1.5em; line-height: 1.6; }
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bc7c9726-bfbd-454a-9fbe-b56c7843f663@mhtml.blink
+
+@charset "utf-8";
+
+html { --logo-url:url("https://www.pythontutorial.net/wp-content/uploads/20=
+21/03/python-tutorial.svg"); --logo-width:95px; --logo-height:40px; --icon-=
+copy-url:url("https://www.pythontutorial.net/wp-content/themes/evolution/im=
+g/copy-light.svg"); --icon-check-url:url("https://www.pythontutorial.net/wp=
+-content/themes/evolution/img/check-light.svg"); --feature-image-bg-color:#=
+ffd141; }
+
+html[data-theme=3D"dark"] { --logo-url:url("https://www.pythontutorial.net/=
+wp-content/uploads/2021/03/python-tutorial-dark.svg"); --logo-width:95px; -=
+-logo-height:40px; }
+
+html[data-theme=3D"dark"] { color-scheme: dark; --body-bg-color:#171717; --=
+text-color:#e3e3e3; --primary-color:#4db2ff; --header-bg-color:#171717; --h=
+eader-border-color:#454545; --heading-color:#e3e3e3; --link-color:#4db2ff; =
+--link-color-hover:#0091ff; --title-color:#e3e3e3; --list-item-color:#e3e3e=
+3; --badge-bg-color:#e3e3e3; --badge-color:#323330; --code-badge-color:#fff=
+; --footer-bg-color:#2e2e2e; --footer-color:#e3e3e3; --footer-link-color:#e=
+3e3e3; --footer-link-color-hover:#c7c7c7; --ads-label-color:#e3e3e3; --down=
+-icon:url("data:image/svg+xml;utf8,<svg xmlns=3D\"http://www.w3.org/2000/sv=
+g\" width=3D\"12\" height=3D\"12\" fill=3D\"currentColor\" viewBox=3D\"0 0 =
+16 16\"><path fill-rule=3D\"evenodd\" d=3D\"M1.646 4.646a.5.5 0 0 1 .708 0L=
+8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0=
+ 0 1 0-.708z\"/></svg>"); --hamburger-icon:url("data:image/svg+xml;utf8,<sv=
+g xmlns=3D\"http://www.w3.org/2000/svg\" width=3D\"24\" height=3D\"24\" vie=
+wBox=3D\"0 0 24 24\" fill=3D\"white\"><path d=3D\"M24 6h-24v-4h24v4zm0 4h-2=
+4v4h24v-4zm0 8h-24v4h24v-4z\"/></svg>"); --x-icon:url("data:image/svg+xml;u=
+tf8,<svg xmlns=3D\"http://www.w3.org/2000/svg\" width=3D\"36\" height=3D\"3=
+6\" fill=3D\"white\"  viewBox=3D\"0 0 16 16\"><path d=3D\"M4.646 4.646a.5.5=
+ 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.=
+5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 =
+5.354a.5.5 0 0 1 0-.708z\"/></svg>"); --current-color:#e3e3e3; --menu-color=
+:#e3e3e3; --border-color:#454545; --hover-background-color:#242424; --menu-=
+background-color:#171717; --submenu-bg-color:#2e2e2e; --toggle-color:#24242=
+4; --button-bg-color:#282828; --button-color:#e3e3e3; --button-bg-color-hov=
+er:#323330; --button-color-hover:#e3e3e3; --button-border-color:#282828; --=
+section-border-color:#454545; --inline-code-bg-color:#454545; --inline-code=
+-color:#e3e3e3; --input-bg-color:#2e2e2e; --input-color:#e3e3e3; --input-bo=
+rder-color:#e3e3e3; --input-border-focus-color:#4db2ff; --image-filter:gray=
+scale(50%); --themeable-image-filter:invert(1) sepia(0) saturate(1) hue-rot=
+ate(0deg); --svg-color:#f4f4f4; --page-nav-bg-color: inherit; --mark-bg-col=
+or:#454545; --feature-image-bg-color:#282828; --feature-image-filter:graysc=
+ale(50%); --fancy-list-color:#e3e3e3; --output-bg-color:#2e2e2e; --output-b=
+order-color:#2e2e2e; }
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-039aeff4-1772-4cde-b365-39075476bcc4@mhtml.blink
+
+@charset "utf-8";
+
+.site-main::before { content: url("https://www.pythontutorial.net/wp-conten=
+t/uploads/2021/03/python-tutorial.svg"); display: block; margin-right: auto=
+; margin-left: auto; text-align: center; max-width: 200px; }
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ff9fdaf2-2e5d-4933-9b71-cd8b639fbd79@mhtml.blink
+
+@charset "utf-8";
+
+.wp-block-code { border: 0px; padding: 0px; }
+
+.wp-block-code > div { overflow: auto; }
+
+.shcb-language { border: 0px; clip: rect(1px, 1px, 1px, 1px); clip-path: in=
+set(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; positi=
+on: absolute; width: 1px; overflow-wrap: normal; word-break: normal; }
+
+.hljs { box-sizing: border-box; }
+
+.hljs.shcb-code-table { display: table; width: 100%; }
+
+.hljs.shcb-code-table > .shcb-loc { color: inherit; display: table-row; wid=
+th: 100%; }
+
+.hljs.shcb-code-table .shcb-loc > span { display: table-cell; }
+
+.wp-block-code code.hljs:not(.shcb-wrap-lines) { white-space: pre; }
+
+.wp-block-code code.hljs.shcb-wrap-lines { white-space: pre-wrap; }
+
+.hljs.shcb-line-numbers { border-spacing: 0px; counter-reset: line 0; }
+
+.hljs.shcb-line-numbers > .shcb-loc { counter-increment: line 1; }
+
+.hljs.shcb-line-numbers .shcb-loc > span { padding-left: 0.75em; }
+
+.hljs.shcb-line-numbers .shcb-loc::before { border-right: 1px solid rgb(221=
+, 221, 221); content: counter(line); display: table-cell; padding: 0px 0.75=
+em; text-align: right; user-select: none; white-space: nowrap; width: 1%; }
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.pythontutorial.net/wp-content/cache/autoptimize/css/autoptimize_b5360d8fe28af112b0854d10ad4c9c05.css
+
+@charset "utf-8";
+
+@media print {
+  body { background: none 0px 0px repeat scroll rgb(255, 255, 255); color: =
+rgb(0, 0, 0); margin: 0px; float: none; font-size: 12pt; }
+  aside, .breadcrumbs, .title-area, .site-header, .site-footer, .helpful-bl=
+ock-content, .wth-question, .wth-thumbs, .page-nav, .ad, .page-navigation, =
+#back-to-top, .code-badge { display: none !important; }
+  .code-badge-pre .hljs { padding: 0px; font-size: 1rem; color: rgb(0, 0, 0=
+); }
+  .wp-block-code { box-shadow: none; }
+  body a { text-decoration: none; }
+  h1, h2, h3, h4, h5 { color: rgb(0, 0, 0); }
+  article a::after { content: " (" attr(href) ") "; font-size: 0.8em; font-=
+weight: 400; }
+  .content { width: 100%; }
+  img { break-before: auto; break-after: auto; break-inside: avoid; }
+  ul li { list-style-type: disc !important; }
+}
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.pythontutorial.net/wp-content/cache/autoptimize/css/autoptimize_894aa3d55917add5d3225aa057575ed5.css
+
+@charset "utf-8";
+
+html { line-height: 1.15; text-size-adjust: 100%; }
+
+body { margin: 0px; }
+
+main { display: block; }
+
+h1 { font-size: 2em; margin: 0.67em 0px; }
+
+hr { box-sizing: content-box; height: 0px; overflow: visible; }
+
+pre { font-family: monospace, monospace; font-size: 1em; }
+
+a { background-color: transparent; }
+
+abbr[title] { border-bottom: none; text-decoration: underline dotted; }
+
+b, strong { font-weight: bolder; }
+
+code, kbd, samp { font-family: monospace, monospace; font-size: 1em; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-ali=
+gn: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+img { border-style: none; }
+
+button, input, optgroup, select, textarea { font-family: inherit; font-size=
+: 100%; line-height: 1.15; margin: 0px; }
+
+button, input { overflow: visible; }
+
+button, select { text-transform: none; }
+
+button, [type=3D"button"], [type=3D"reset"], [type=3D"submit"] { appearance=
+: button; }
+
+fieldset { padding: 0.35em 0.75em 0.625em; }
+
+legend { box-sizing: border-box; color: inherit; display: table; max-width:=
+ 100%; padding: 0px; white-space: normal; }
+
+progress { vertical-align: baseline; }
+
+textarea { overflow: auto; }
+
+[type=3D"checkbox"], [type=3D"radio"] { box-sizing: border-box; padding: 0p=
+x; }
+
+[type=3D"number"]::-webkit-inner-spin-button, [type=3D"number"]::-webkit-ou=
+ter-spin-button { height: auto; }
+
+[type=3D"search"] { appearance: textfield; outline-offset: -2px; }
+
+[type=3D"search"]::-webkit-search-decoration { appearance: none; }
+
+::-webkit-file-upload-button { appearance: button; font: inherit; }
+
+details { display: block; }
+
+summary { display: list-item; }
+
+template { display: none; }
+
+[hidden] { display: none; }
+
+.site-header { border-bottom: 1px solid var(--header-border-color); }
+
+.logo { display: flex; justify-content: center; align-items: center; backgr=
+ound: var(--logo-url) no-repeat center center; height: var(--logo-height); =
+width: var(--logo-width); }
+
+.header-wrapper { position: relative; box-sizing: border-box; padding: 0px;=
+ margin: 0px; }
+
+.site-branding { flex-shrink: 0; flex-grow: 0; padding: 0px 0.5rem; }
+
+.site-branding a { display: block; padding: 0.5rem; }
+
+.site-navigation { display: flex; align-items: center; justify-content: cen=
+ter; }
+
+.site-navigation a { text-transform: uppercase; letter-spacing: 0.05em; fon=
+t-size: 0.8rem; font-weight: 500; color: var(--menu-color); padding: 0.5rem=
+; cursor: pointer; }
+
+.site-navigation a:hover, .site-navigation a:visited, .site-navigation a:fo=
+cus { color: var(--menu-color); }
+
+.menu-toggle { display: block; background: var(--hamburger-icon) no-repeat =
+center center; height: 50px; width: 50px; cursor: pointer; outline: none; b=
+order: none; }
+
+.menu-toggle:hover { background-color: var(--toggle-color); border-radius: =
+50%; }
+
+.menu-toggle.activated { background: var(--toggle-color) var(--x-icon) no-r=
+epeat center center; border-radius: 50%; }
+
+.site-menu { position: absolute; top: 100%; right: 0px; left: 0px; z-index:=
+ -1; visibility: hidden; opacity: 0; transform: translateY(-100%); transiti=
+on: opacity 0.25s ease-out 0s; padding: 0px; margin: 0px; }
+
+.site-menu.active { visibility: visible; opacity: 1; transform: translateY(=
+0px); z-index: 9999; background-color: var(--submenu-bg-color); }
+
+.site-menu li { list-style: none; border-bottom: solid 1px var(--border-col=
+or); padding: 0.5rem 0px; }
+
+.site-menu li:first-child { border-top: solid 1px var(--border-color); }
+
+.site-menu a { display: block; }
+
+.sub-menu { display: none; }
+
+.menu-item-has-children a { display: flex; justify-content: space-between; =
+align-items: center; }
+
+.menu-item-has-children > a::after { content: ""; -webkit-mask-image: ; -we=
+bkit-mask-position-x: ; -webkit-mask-position-y: ; -webkit-mask-repeat-x: ;=
+ -webkit-mask-repeat-y: ; -webkit-mask-origin: ; -webkit-mask-clip: ; mask:=
+ var(--down-icon); -webkit-mask-size: cover; display: inline-block; height:=
+ 1rem; width: 1rem; background-color: var(--text-color); margin-left: 5px; =
+}
+
+.menu-item-has-children .sub-menu.show { display: block; }
+
+.menu-item-has-children .sub-menu li { border: none; }
+
+.menu-item-has-children .sub-menu a { font-size: 0.85rem; margin-left: 1rem=
+; text-transform: none; }
+
+svg { fill: currentcolor; }
+
+.switch-theme { cursor: pointer; padding: 0.25rem 1rem; border-radius: 1rem=
+; width: 20px; height: 20px; }
+
+.switch-theme svg { margin-right: 0.25rem; }
+
+html .light-mode-icon { display: none; }
+
+html .dark-mode-icon { display: inline; }
+
+html[data-theme=3D"dark"] .light-mode-icon { display: inline; }
+
+html[data-theme=3D"dark"] .dark-mode-icon { display: none; }
+
+@media (min-width: 768px) {
+  .menu-item-has-children .sub-menu a { margin-left: 0px; font-size: 0.8rem=
+; }
+  .menu-toggle { display: none; }
+  .site-branding a { padding: 0px; }
+  .site-menu { opacity: 1; visibility: visible; position: relative; top: 0p=
+x; left: 0px; z-index: 1; transform: translateY(0px); display: flex; justif=
+y-content: flex-end; align-items: center; }
+  .site-navigation a { padding: 1.25rem 0.75rem; }
+  .site-menu li { padding: 0px; }
+  .sub-menu a { padding: 0.65rem; }
+  .menu-item-has-children { position: relative; }
+  .site-menu .sub-menu { display: none; background-color: var(--submenu-bg-=
+color); border: solid 1px var(--border-color); border-radius: 0.25rem; min-=
+width: 200px; }
+  .sub-menu a:hover { background-color: var(--hover-background-color); }
+  .site-menu > .menu-item-has-children > a::after { content: ""; -webkit-ma=
+sk-image: ; -webkit-mask-position-x: ; -webkit-mask-position-y: ; -webkit-m=
+ask-repeat-x: ; -webkit-mask-repeat-y: ; -webkit-mask-origin: ; -webkit-mas=
+k-clip: ; mask: var(--down-icon); -webkit-mask-size: cover; display: inline=
+-block; height: 1rem; width: 1rem; background-color: var(--text-color); }
+  .site-menu > .menu-item-has-children .sub-menu.show { display: block; pos=
+ition: absolute; top: 90%; z-index: 9999; }
+  .site-menu > .menu-item { border-bottom: 1px solid transparent; }
+  .site-menu > .current-menu-item, .site-menu > .current-menu-parent, .site=
+-menu > .current-page-ancestor { border-bottom: solid 1px var(--current-col=
+or); }
+  .site-menu > .menu-item:hover { border-bottom: solid 1px var(--current-co=
+lor); }
+  .site-menu li:first-child, .site-menu li:last-child { border-top: none; }
+}
+
+.wp-caption { margin-bottom: 1.5em; max-width: 100%; }
+
+.wp-caption img[class*=3D"wp-image-"] { display: block; margin-left: auto; =
+margin-right: auto; }
+
+.wp-caption .wp-caption-text { margin: 0.8075em 0px; }
+
+.wp-caption-text { text-align: center; }
+
+.fancy-list { counter-reset: my-counter 0; }
+
+.fancy-list a, .fancy-list a:hover, .fancy-list a:active, .fancy-list a:vis=
+ited { color: var(--link-color); }
+
+.fancy-list dt { position: relative; font-size: 24px; padding: 4px 0px 10px=
+; }
+
+.fancy-list dt::before { content: counter(my-counter); counter-increment: m=
+y-counter 1; position: absolute; left: -0.75rem; top: -2.5rem; color: var(-=
+-fancy-list-color); font-size: 6rem; font-weight: 300; }
+
+.fancy-list dd { margin: 0px 0px 50px; }
+
+.fancy-list dt, .fancy-list dd { padding-left: 65px; }
+
+.category-tree { background-color: var(--body-bg-color); }
+
+.category-tree > li { transition: all 0.3s ease 0s; }
+
+.category-tree > li:hover { transform: translate3d(-5px, 0px, 0px); }
+
+.category-tree > .cat-item { position: relative; display: block; margin-bot=
+tom: -1px; }
+
+.category-tree > .cat-item > .children > .cat-name { display: block; paddin=
+g: 10px 15px; }
+
+.category-tree .cat-item .badge { display: block; min-width: 1.3rem; height=
+: 1.3rem; font-size: 0.7rem; font-weight: 700; line-height: 20px; color: va=
+r(--button-color); text-align: center; white-space: nowrap; background-colo=
+r: var(--button-bg-color); border-radius: 50%; float: right; }
+
+.cat-item:last-child { border-width: 1px; padding-bottom: 5px; }
+
+table { border: 1px solid rgb(222, 226, 230); margin-bottom: 10px; width: 1=
+00%; border-collapse: collapse; }
+
+table tr { display: table-row; }
+
+table td, table th { padding: 0.5625rem 0.625rem; text-align: left; vertica=
+l-align: top; border: 1px solid rgb(222, 226, 230); }
+
+table thead { vertical-align: bottom; border-bottom: 2px solid rgb(222, 226=
+, 230); }
+
+tbody + tbody { border-top: 2px solid rgb(222, 226, 230); }
+
+table thead th { padding: 0.625rem; font-weight: 700; text-align: left; ver=
+tical-align: top; }
+
+iframe { border: none; min-height: 50px; width: 100%; box-sizing: border-bo=
+x; }
+
+.output { margin: 2rem 0px; padding: 1rem; position: relative; background-c=
+olor: var(--output-bg-color); border: solid 1px var(--output-border-color);=
+ }
+
+.output::before { display: inline-block; content: "Output"; padding: 5px 10=
+px; background-color: var(--output-bg-color); color: var(--text-color); fon=
+t-size: 12px; line-height: 20px; position: absolute; z-index: 2; border-top=
+-color: ; border-top-style: ; border-top-width: ; border-right-color: ; bor=
+der-right-style: ; border-right-width: ; border-left-color: ; border-left-s=
+tyle: ; border-left-width: ; border-image-source: ; border-image-slice: ; b=
+order-image-width: ; border-image-outset: ; border-image-repeat: ; border-b=
+ottom: none; top: -1.97rem; left: -1px; }
+
+.output iframe { padding: 1rem; }
+
+.entry-content .wp-block-group > div { background-color: var(--body-bg-colo=
+r); border: solid 1px var(--section-border-color); border-radius: 15px; box=
+-shadow: rgba(84, 94, 111, 0.2) 0px 3px 0px; padding: 20px; margin: 0px 0px=
+ 30px; }
+
+.entry-content .wp-block-group > div ul { margin: 0px; }
+
+.entry-content .wp-block-group > div h2 { padding-left: 0px; margin: 0px 0p=
+x 10px; }
+
+.page-header { padding: 0px 0.5rem; margin-bottom: 1.5rem; }
+
+.search-form { margin: 1rem 0px; }
+
+.page-search-label { display: block; margin-bottom: 1rem; }
+
+.page-header .page-title { padding: 0px; margin: 0px; line-height: 1; font-=
+size: 3rem; text-align: center; }
+
+mark { background-color: var(--mark-bg-color); color: var(--text-color); bo=
+rder-radius: 0.5rem; padding: 0.25em 0.35em; }
+
+.pagination { padding: 1rem; text-align: center; }
+
+.pagination li { display: inline; }
+
+.pagination a, .pagination a:hover, .pagination .active a, .pagination .dis=
+abled { color: var(--link-color); cursor: pointer; padding: 0.75rem; }
+
+.pagination a:hover, .pagination .active a { color: var(--text-color); }
+
+#back-to-top:hover { background-color: var(--button-bg-color-hover); color:=
+ var(--button-color-hover); }
+
+.light-table-filter { width: 100%; padding: 1rem; box-sizing: border-box; b=
+order: 1px solid var(--input-border-color); background-color: var(--input-b=
+g-color); color: var(--input-color); outline: none; }
+
+a.sql { background: var(--button-bg-color); color: var(--button-color); fon=
+t-size: 0.75rem; font-weight: 700; padding: 0.75rem; text-decoration: none;=
+ border-radius: 1.25rem; transition: all 0.3s ease 0s; }
+
+a.sql::after { background: var(--body-bg-color); color: var(--text-color); =
+content: "=E2=9D=AF"; display: inline-block; font-size: 0.75rem; font-weigh=
+t: 700; height: 1.25rem; line-height: 1.25rem; margin-left: 0.75rem; text-a=
+lign: center; width: 1.25rem; border-radius: 50%; }
+
+a.sql:hover { transition: all 0.3s ease 0s; background-color: var(--button-=
+bg-color-hover); color: var(--button-color-hover); }
+
+.alignleft { float: left; margin: 0.5em 1em 0.5em 0px; }
+
+.alignright { float: right; margin: 0.5em 0px 0.5em 1em; }
+
+.aligncenter { margin-left: auto; margin-right: auto; }
+
+.icon-next-page, .icon-prev-page { color: var(--svg-color); filter: var(--t=
+hemeable-image-filter); }
+
+.wp-block-code code::-webkit-scrollbar { width: 11px; }
+
+.wp-block-code code { }
+
+.wp-block-code code::-webkit-scrollbar-track { background: var(--scrollbar-=
+bg-color); }
+
+.wp-block-code code::-webkit-scrollbar-thumb { background-color: var(--scro=
+llbar-thumb-color); border-radius: 6px; border: 3px solid var(--scrollbar-b=
+g-color); }
+
+:root { color-scheme: light; --font-family:-apple-system,BlinkMacSystemFont=
+,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif=
+; --font-family-code:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Libe=
+ration Mono,Courier New,monospace; --body-bg-color:#fff; --text-color:#2125=
+29; --primary-color:#0052ea; --header-bg-color:#fff; --header-border-color:=
+#e7ebed; --heading-color:#374151; --link-color:#0052ea; --link-color-hover:=
+#0052ea; --title-color:#0052ea; --code-badge-color:#fff; --footer-bg-color:=
+#f7faff; --footer-color:#212529; --footer-link-color:#0052ea; --footer-link=
+-color-hover:#377dff; --ads-label-color:#666; --down-icon:url("data:image/s=
+vg+xml;utf8,<svg xmlns=3D\"http://www.w3.org/2000/svg\" width=3D\"12\" heig=
+ht=3D\"12\" fill=3D\"currentColor\" class=3D\"menu-down-icon\" viewBox=3D\"=
+0 0 16 16\"><path fill-rule=3D\"evenodd\" d=3D\"M1.646 4.646a.5.5 0 0 1 .70=
+8 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5=
+.5 0 0 1 0-.708z\"/></svg>"); --hamburger-icon:url("data:image/svg+xml;utf8=
+,<svg xmlns=3D\"http://www.w3.org/2000/svg\" width=3D\"24\" height=3D\"24\"=
+ viewBox=3D\"0 0 24 24\"><path d=3D\"M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 =
+8h-24v4h24v-4z\"/></svg>"); --x-icon:url("data:image/svg+xml;utf8,<svg xmln=
+s=3D\"http://www.w3.org/2000/svg\" width=3D\"36\" height=3D\"36\" fill=3D\"=
+currentColor\"  viewBox=3D\"0 0 16 16\"><path d=3D\"M4.646 4.646a.5.5 0 0 1=
+ .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 =
+0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a=
+.5.5 0 0 1 0-.708z\"/></svg>"); --current-color:#0052ea; --menu-color:#6777=
+88; --border-color:#f4f4f4; --hover-background-color:#f4f4f4; --menu-backgr=
+ound-color:#fff; --submenu-bg-color:#fff; --toggle-color:#f4f4f4; --button-=
+bg-color:#0d6efd; --button-color:#fff; --button-bg-color-hover:#0b5ed7; --b=
+utton-color-hover:#fff; --button-border-color:#0a58ca; --section-border-col=
+or:#ddd; --inline-code-bg-color:#f5f5f5; --inline-code-color:#da1039; --inp=
+ut-bg-color:#fff; --input-color:#212529; --input-border-color:#e3e3e3; --in=
+put-border-focus-color:#e3e3e3; --image-filter:grayscale(0%); --themeable-i=
+mage-filter:none; --svg-color:#323330; --page-nav-bg-color:#fff; --mark-bg-=
+color:#fff6ea; --feature-image-filter:none; --fancy-list-color:rgba(0,0,0,0=
+.15); --output-bg-color:#f9fafb; --output-border-color:#e7ebed; --post-box-=
+shadow:rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0,0,0,0.3) 0px 1px 3px -1p=
+x; --post-border:none; --scrollbar-bg-color:#282828; --scrollbar-thumb-colo=
+r:gray; }
+
+.wp-block-code { position: relative; }
+
+.btn-copy-code { opacity: 0; position: absolute; top: 0px; right: 0px; curs=
+or: pointer; transition: opacity 0.2s linear 0s; margin: 0.5rem; height: 20=
+px; width: 20px; display: block; }
+
+.wp-block-code:hover .btn-copy-code { opacity: 1; }
+
+.icon-copy { background-image: var(--icon-copy-url); background-repeat: no-=
+repeat; }
+
+.icon-done { background-image: var(--icon-check-url); background-repeat: no=
+-repeat; }
+
+#carbonads { position: relative; display: flex; width: 300px; height: 250px=
+; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.15) 0px=
+ 0px 1px 1px inset; text-align: center; font-family: -apple-system, BlinkMa=
+cSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica=
+ Neue", Helvetica, Arial, sans-serif; justify-content: center; align-items:=
+ center; }
+
+#carbonads a { color: rgb(17, 17, 17); text-decoration: none; }
+
+#carbonads a:hover { color: rgb(17, 17, 17); }
+
+#carbonads span { display: block; overflow: hidden; }
+
+.carbon-img { display: block; margin: 0px 0px 8px; line-height: 1; }
+
+.carbon-img img { width: 150px; height: auto; max-width: 150px !important; =
+}
+
+.carbon-text { display: block; margin-bottom: 8px; padding: 0px 10px; font-=
+weight: 500; font-size: 16px; line-height: 1.35; }
+
+.carbon-poweredby { position: absolute; right: 10px; bottom: 10px; display:=
+ block; padding: 5px 6px; border-radius: 2.5px; background-color: rgb(117, =
+102, 249); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 6=
+00; font-size: 8px; line-height: 1; color: rgb(255, 255, 255) !important; }
+
+.donation { box-sizing: border-box; position: relative; max-width: 336px; m=
+ax-height: 280px; background-color: var(--body-bg-color,"#fff"); border: so=
+lid 1px var(--section-border-color,"#ccc"); text-align: center; justify-con=
+tent: center; align-items: center; padding: 1.5rem; margin-bottom: 1rem; }
+
+.donation-text { display: block; margin: 15px 0px; padding: 0px 10px; font-=
+weight: 500; }
+
+.donation .donate-button { display: block; padding: 0.25rem 0.5rem; border-=
+radius: 1.5rem; background-color: var(--button-bg-color,#0d6efd); color: rg=
+b(255, 255, 255); }
+
+.donation .donate-button:focus { box-shadow: rgba(49, 132, 253, 0.5) 0px 0p=
+x 0px 0.25rem; border-color: var(--button-border-color,#0a58ca); background=
+-color: var(--button-bg-color-hover,#0b5ed7); outline: none; }
+
+.donation .donate-button:hover { background-color: var(--button-bg-color,#0=
+b5ed7); color: rgb(255, 255, 255); border-color: var(--button-border-color,=
+#0a58ca); }
+
+.donation a { text-decoration: none; }
+
+.donation a:hover { text-decoration: none; }
+
+.donation span.highlight { color: rgb(220, 53, 69); }
+
+.wp-block-button__link { color: rgb(255, 255, 255); background-color: rgb(5=
+0, 55, 60); border-radius: 9999px; box-shadow: none; text-decoration: none;=
+ padding: calc(0.667em + 2px) calc(1.333em + 2px); font-size: 1.125em; }
+
+.feature-page { display: flex; align-items: flex-start; padding: 0px; margi=
+n: 0px 0px 1rem; }
+
+.feature-page > .feature-image { width: 150px; height: 150px; margin: 0px 1=
+rem 0px 0px; border-radius: 50%; background-color: var(--feature-image-bg-c=
+olor,"#fff"); display: flex; justify-content: center; align-items: center; =
+}
+
+.feature-page > .feature-body { flex: 1 1 0%; }
+
+.feature-page h3 { margin: 0px 0px 0.5rem; }
+
+html { background: var(--body-bg-color); color: var(--text-color); font-siz=
+e: 1rem; }
+
+body { font-family: var(--font-family); font-size: 1rem; line-height: 1.8; =
+}
+
+embed, iframe, object { max-width: 100%; }
+
+img, video { height: auto; max-width: 100%; }
+
+img:not([src*=3D".svg"]) { filter: var(--image-filter); }
+
+figure { margin: 1em 0px; }
+
+table { margin: 0px 0px 1.5em; width: 100%; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 400; color: var(--heading-color); pad=
+ding: 0px; }
+
+h1 { font-size: 1.875rem; margin-bottom: 1.7rem; }
+
+h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+
+h3 { font-size: 1.3125rem; margin-bottom: 0.875rem; }
+
+h4 { font-size: 1rem; margin-bottom: 0.875rem; }
+
+p code, li code { font-family: var(--font-family-code); font-size: 0.875rem=
+; font-weight: 400; background-color: var(--inline-code-bg-color); color: v=
+ar(--inline-code-color); padding: 0.25em 0.5em; border-radius: 3px; }
+
+h2 code, h3 code { font-family: var(--font-family); color: var(--heading-co=
+lor); background: 0px 0px; padding: 0px; border-radius: 0px; }
+
+h2 code { font-size: 1.5rem; }
+
+h3 code { font-size: 1.3125rem; }
+
+.wp-block-code code { font-family: var(--font-family-code); white-space: pr=
+e !important; }
+
+.screen-reader-text { border: 0px; clip: rect(1px, 1px, 1px, 1px); clip-pat=
+h: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; w=
+idth: 1px; outline-style: dashed; outline-width: 0.125rem; outline-color: v=
+ar(--text-color); position: fixed !important; overflow-wrap: normal !import=
+ant; }
+
+.screen-reader-text:focus { background-color: var(--body-bg-color); color: =
+var(--link-color); clip-path: none; display: block; top: 5px; right: 5px; l=
+eft: 5px; padding: 20px 25px; text-decoration: none; width: auto; height: a=
+uto; z-index: 100000; text-align: center; clip: auto !important; }
+
+#primary[tabindex=3D"-1"]:focus { outline: 0px; }
+
+a { color: var(--link-color); text-decoration: none; }
+
+a:hover, a:visited, a:focus { color: var(--link-color); }
+
+a:active { color: var(--link-color); }
+
+ul, ol { padding: 0px; }
+
+.header-wrapper { display: flex; justify-content: space-between; align-item=
+s: center; }
+
+.breadcrumbs { font-size: 0.9rem; padding: 0px 0.5rem; }
+
+article { padding: 0px 0.5rem; }
+
+aside { padding: 1rem 0.5rem; }
+
+.page-nav { display: flex; flex-direction: column; padding: 1rem 0.5rem; }
+
+.prev-page, .next-page { flex-grow: 1; flex-basis: 0px; padding: 0.75rem; b=
+order-radius: 5px; border: 1px solid var(--section-border-color); box-shado=
+w: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px; margin-bottom: 1rem; }
+
+.prev-page:hover, .next-page:hover { border: solid 1px var(--primary-color)=
+; border-radius: 5px; cursor: pointer; }
+
+.prev-page { text-align: left; order: 1; }
+
+.next-page { text-align: left; }
+
+.site-footer { max-width: 100%; }
+
+.site-footer-widgets { display: flex; flex-direction: column; }
+
+.site-footer { padding: 1rem; }
+
+.site-footer-sidebar { margin-bottom: 1rem; }
+
+.site-footer { padding: 10px; background-color: var(--footer-bg-color); col=
+or: var(--footer-color); }
+
+.site-footer a { color: var(--footer-link-color); }
+
+.site-footer a:hover { color: var(--footer-link-color-hover); text-decorati=
+on: none; }
+
+.site-footer p { margin-bottom: 0px; }
+
+.site-info { text-align: center; margin: 0px auto; }
+
+.site-info > * { padding: 0px 1rem; }
+
+.entry-title { color: var(--title-color); font-weight: 400; }
+
+.entry-title a { font-size: 1.25rem; }
+
+.post-excerpt, .search-result .hentry { background-color: var(--body-bg-col=
+or); border: solid 1px var(--section-border-color); border-radius: 1rem; bo=
+x-shadow: rgba(84, 94, 111, 0.2) 0px 3px 0px; padding: 0.5rem 1rem; margin:=
+ 0px 0px 1.5rem; }
+
+.widget-title { font-weight: 700; font-size: 0.8rem; letter-spacing: 1px; t=
+ext-transform: uppercase; padding: 0px 0px 1rem; margin-top: 1rem; }
+
+.widget_search { margin-bottom: 1.5rem; }
+
+.widget .menu { margin: 0px 0px 1.5rem; }
+
+.note, .info, .caution, .warning { border-width: 1px 1px 1px 0.25rem; borde=
+r-style: solid; border-top-color: rgb(233, 236, 239); border-right-color: r=
+gb(233, 236, 239); border-bottom-color: rgb(233, 236, 239); border-image: i=
+nitial; border-left-color: initial; margin: 16px 0px; padding: 1.25rem; bor=
+der-radius: 0.25rem; }
+
+.note, .info { border-left-color: rgb(91, 192, 222); }
+
+.warning { border-left-color: rgb(240, 173, 78); }
+
+.danger { border-left-color: rgb(217, 83, 79); }
+
+.link-btn { margin: 0px 1px 10px 0px; min-width: 350px; }
+
+.ad { text-align: left; margin: 0.5rem 0px; }
+
+.ad-336 { width: 336px; height: 320px; overflow: hidden; }
+
+.ad-300 { width: 300px; height: 280px; overflow: hidden; }
+
+.ad::before { content: "Advertisements"; color: var(--ads-label-color); fon=
+t-size: 10px; display: block; text-transform: uppercase; text-align: center=
+; }
+
+.entry-header .ad { margin-bottom: 40px; }
+
+.search-form { overflow: hidden; width: 100%; }
+
+.search-form input[type=3D"search"] { border: 1px solid var(--input-border-=
+color); border-radius: 3px; font-size: 1rem; padding: 16px; width: 100%; ou=
+tline-offset: -2px; outline: none; background-color: var(--input-bg-color);=
+ color: var(--input-color); }
+
+.search-form input[type=3D"search"]:focus { border: 1px solid var(--input-b=
+order-focus-color); }
+
+.search-form input[type=3D"submit"] { border: 0px; clip: rect(0px, 0px, 0px=
+, 0px); height: 1px; margin: -1px; padding: 0px; position: absolute; width:=
+ 1px; }
+
+.page-nav-title { text-transform: uppercase; letter-spacing: 1px; font-size=
+: 0.7rem; color: rgb(157, 170, 182); }
+
+.page-nav-main { display: flex; flex-direction: column; }
+
+.page-nav-arrow { vertical-align: middle; }
+
+.page-nav-first { margin-left: 0px; }
+
+.page-nav-second { margin-right: 0px; }
+
+.page-nav a { display: flex; justify-content: space-between; }
+
+.site-secondary { width: 100%; }
+
+code.hljs { padding: 1rem; }
+
+.entry-content ol, .entry-content ul { padding-left: 1rem; }
+
+.entry-content ol li { list-style-type: decimal; margin: 0px 0px 1rem 1rem;=
+ }
+
+.entry-content li { margin: 0px 0px 0.5rem 1rem; }
+
+.widget ul { margin: 0px; padding: 0px; }
+
+.widget li { list-style-type: none; text-align: left; overflow-wrap: break-=
+word; font-size: 1rem; padding: 0.25rem 0px; }
+
+.widget li:first-child { padding-top: 0px; }
+
+.widget li a { display: inline-block; padding: 0px 0px 0.25rem; }
+
+.category-tree li a { display: block; }
+
+.widget .children { margin-left: 1rem; }
+
+.entry-content .wp-block-group ul { padding-left: 0px; list-style: none; }
+
+.feature-list { list-style: none; }
+
+.entry-content .wp-block-group ul > li::before, .feature-list li::before { =
+content: ""; border-color: transparent rgb(204, 204, 204); border-style: so=
+lid; border-width: 0.3em 0px 0.3em 0.35em; display: block; height: 0px; wid=
+th: 0px; left: -0.75rem; top: 1.25rem; position: relative; background: 0px =
+0px; margin: 0px; }
+
+img.aligncenter { clear: both; display: block; margin: 0px auto; }
+
+.wp-block-image .alignright { float: right; margin: 0.5em 0px 0.5em 1em; }
+
+.wp-block-image .alignleft { float: left; margin: 0.5em 1em 0.5em 0px; }
+
+@media (min-width: 768px) {
+  body { font-size: 1rem; }
+  .site-footer-widgets { display: flex; flex-direction: row; justify-conten=
+t: space-between; }
+  .site-footer-sidebar { flex: 1 1 0%; padding: 1rem; }
+  .page-nav-arrow { opacity: 0.5; cursor: pointer; display: flex; align-ite=
+ms: center; justify-content: center; background-color: var(--page-nav-bg-co=
+lor); flex: 0 0 32px; }
+  .page-nav { display: flex; flex-direction: row; justify-content: space-be=
+tween; margin: 1rem 0px; }
+  .prev-page { order: 0; margin-right: 0.5rem; text-align: right; }
+  .next-page { order: 1; margin-left: 0.5rem; text-align: left; }
+}
+
+@media (min-width: 1140px) {
+  body { font-size: 1rem; }
+  .site { margin: 0px auto; display: flex; flex-direction: column; overflow=
+: hidden; }
+  .site-inner { display: flex; justify-content: space-between; }
+  .site-main { width: 730px; }
+  aside { width: 300px; padding: 1rem 0.5rem; }
+  .wrap { width: 1050px; margin: 0px auto; }
+  .site-header { background: var(--header-bg-color); width: 100%; }
+  .header-wrapper { display: flex; justify-content: space-between; align-it=
+ems: center; }
+}
+
+.error-404 { display: flex; flex-direction: column; justify-content: center=
+; align-items: center; padding: 1rem; }
+
+.error-404 h1 { font-size: 2.5rem; margin: 0px; }
+
+figure.border img { border: 1px solid rgb(221, 221, 221); }
+
+.helpful-block-content { padding: 2rem 0px; --wth-background-color:var(--bo=
+dy-bg-color,#fff); --wth-border-color:var(--body-bg-color,#fff); --wth-no-b=
+utton-background-color:#ffe5e8; --wth-no-button-color:#ec5525; --wth-yes-bu=
+tton-background-color:#c9f8de; --wth-yes-button-color:#06b66c; }
+
+.helpful-block-content header { background-color: var(--body-bg-color); mar=
+gin: 1rem auto; text-align: center; }
+
+.wth-title, .wth-question { display: inline-block; margin-right: 1rem; }
+
+.wth-question { font-size: 1.1rem; font-weight: 500; }
+
+.wth-thumbs { display: inline-block; }
+
+.wth-thumbs svg { fill: none; }
+
+.wth-btn { display: inline-block; border: none; outline: none; padding: 10p=
+x 25px; cursor: pointer; border-radius: 3px; font-size: 0.9rem; user-select=
+: none; }
+
+.wth-btn-rounded { display: inline-block; border: none; outline: none; curs=
+or: pointer; font-size: 0.9rem; user-select: none; width: 48px; height: 48p=
+x; border-radius: 50%; padding: 1rem; }
+
+.wth-btn:hover { opacity: 0.7; }
+
+.wth-yes-btn { background: var(--wth-yes-button-background-color); color: v=
+ar(--wth-yes-button-color); }
+
+.wth-no-btn { background: var(--wth-no-button-background-color); color: var=
+(--wth-no-button-color); outline: none; margin-left: 0.5rem; }
+
+.wth-form-wrapper { margin-bottom: 4rem; }
+
+.wth-success { color: rgb(36, 137, 13); text-align: center; }
+
+.wth-error { color: red; }
+
+.wth-btn-submit { background: var(--button-bg-color); color: var(--button-c=
+olor); border: solid 1px var(--button-border-color); margin-top: 10px; }
+
+.wth-btn-cancel { background-color: rgb(255, 255, 255); border: solid 1px v=
+ar(--button-bg-color); color: var(--button-bg-color); margin-top: 10px; }
+
+.wth-message { background-color: var(--input-bg-color); border: 1px solid v=
+ar(--input-border-color); min-height: 150px; width: 96%; padding: 2%; displ=
+ay: block; border-radius: 5px; outline: none; color: var(--text-color); }
+
+.wth-message:focus, .wth-message:active { border: 1px solid var(--input-bor=
+der-focus-color); }
+
+.wth-feedback-error { border: 2px solid red; }
+
+.wth-feedback { margin: 0px auto; }
+
+.helpful-block-content .btn:hover { opacity: 0.8; }
+
+.wth-form { display: block; text-align: left; }
+
+.wth-form.hidden { display: none; }
+
+.wth-loader { display: flex; justify-content: center; align-items: center; =
+}
+
+.wth-loader p { margin-left: 1rem; }
+
+.spinner { animation: 2s linear 0s infinite normal none running rotate; wid=
+th: 50px; height: 50px; }
+
+.spinner .path { stroke: rgb(204, 204, 204); stroke-linecap: round; animati=
+on: 1.5s ease-in-out 0s infinite normal none running dash; }
+
+@-webkit-keyframes rotate {=20
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate {=20
+  100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes dash {=20
+  0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; }
+  100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }
+}
+
+@keyframes dash {=20
+  0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; }
+  100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }
+}
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0px; margi=
+n: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: now=
+rap; border-width: 0px; }
+
+.helpful-block-content ul li a.wth-green-btn, .helpful-block-content ul li =
+a.wth-red-btn { margin: 0px 5px; }
+
+@media (max-width: 600px) {
+  .helpful-block-content ul li { width: 100%; display: block; }
+  .helpful-block-content ul li:first-child { margin-top: 0px !important; }
+  .helpful-block-content ul li a.wth-green-btn { margin-left: 0px; }
+}
+
+@media (max-width: 400px) {
+  .helpful-block-content ul li a.wth-green-btn, .helpful-block-content ul l=
+i a.wth-red-btn { display: block; margin: 0px; box-sizing: border-box; }
+  .helpful-block-content ul li a.wth-green-btn { margin-bottom: 8px; }
+}
+
+.hljs { display: block; overflow-x: auto; padding: 0.5em; color: rgb(171, 1=
+78, 191); background: rgb(40, 44, 52); }
+
+.hljs-comment, .hljs-quote { color: rgb(92, 99, 112); font-style: italic; }
+
+.hljs-doctag, .hljs-keyword, .hljs-formula { color: rgb(198, 120, 221); }
+
+.hljs-section, .hljs-name, .hljs-selector-tag, .hljs-deletion, .hljs-subst =
+{ color: rgb(224, 108, 117); }
+
+.hljs-literal { color: rgb(86, 182, 194); }
+
+.hljs-string, .hljs-regexp, .hljs-addition, .hljs-attribute, .hljs-meta-str=
+ing { color: rgb(152, 195, 121); }
+
+.hljs-built_in, .hljs-class .hljs-title { color: rgb(230, 192, 123); }
+
+.hljs-attr, .hljs-variable, .hljs-template-variable, .hljs-type, .hljs-sele=
+ctor-class, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-number { colo=
+r: rgb(209, 154, 102); }
+
+.hljs-symbol, .hljs-bullet, .hljs-link, .hljs-meta, .hljs-selector-id, .hlj=
+s-title { color: rgb(97, 174, 238); }
+
+.hljs-emphasis { font-style: italic; }
+
+.hljs-strong { font-weight: 700; }
+
+.hljs-link { text-decoration: underline; }
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.pythontutorial.net/wp-content/themes/evolution/img/left.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" fill=
+=3D"currentColor" class=3D"bi bi-arrow-left-short" viewBox=3D"0 0 16 16">
+  <path fill-rule=3D"evenodd" d=3D"M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a=
+.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.=
+5H11.5a.5.5 0 0 1 .5.5z"/>
+</svg>
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.pythontutorial.net/wp-content/themes/evolution/img/right.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" fill=
+=3D"currentColor" class=3D"bi bi-arrow-right-short" viewBox=3D"0 0 16 16">
+  <path fill-rule=3D"evenodd" d=3D"M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a=
+.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293=
+ 8.5H4.5A.5.5 0 0 1 4 8z"/>
+</svg>
+------MultipartBoundary--afpwQw1nTr4X1aEOFv6WQcHTKKeQjb8S8pBndJnX3t------

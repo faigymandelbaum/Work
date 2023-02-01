@@ -13,5 +13,6 @@ def generate_pin(pin_length=3):
 
 
 # Pin length can be between 3 and 6
-pin = generate_pin(3)
-# print('pin:', pin)
+# pin = generate_pin(3)
+pin = hash(bytes(567))
+print('pin:', pin)
