@@ -1,10 +1,18 @@
 from person import Person
+import decimal
+import datetime
+
 class Counselor(Person):
 
-    def __init__(self, hire_date, salary, first_name, last_name):
+    def __init__(self, first_name, last_name, salary:decimal, hire_date = datetime.datetime.now().date()):
         super().__init__(first_name, last_name)
         self.hire_date = hire_date
         self.salary = salary
 
     def __str__(self):
-        return  "{0} {1} was hired {2}. {0}'s salary: {3}".format(self.first_name, self.last_name, self.hire_date, self.salary) 
+        return super().__str__() + "\nHire date: " + str(self.hire_date) + "\nSalary: " + str(self.salary) 
+
+        
+# my_counselor = Counselor('Esti', "Herman", 789)
+# print (my_counselor)  
+

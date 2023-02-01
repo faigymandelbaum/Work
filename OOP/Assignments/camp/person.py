@@ -5,4 +5,5 @@ class Person:
         self.last_name = l_name
 
     def __str__(self):
-        return self.first_name + ' ' + self.last_name
+        name = "{} {}".format(self.first_name, self.last_name)
+        return name
