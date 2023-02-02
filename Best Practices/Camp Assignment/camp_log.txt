@@ -1,0 +1,643 @@
+12:26:40,7 root ERROR ERROR! Counselor fs gds not found. Could not add bunk.
+12:31:04,171 root ERROR Counselor already exists.
+12:38:21,203 root INFO The task was carried out successfully.
+17:26:57,264 root ERROR Invalid menu choice.
+17:27:15,135 root ERROR Invalid menu choice.
+17:27:19,226 root INFO Choice None carried out successfully.
+17:28:17,13 root ERROR Salary must be a number!
+17:28:55,952 root INFO Choice 1 carried out successfully.
+17:30:01,189 root ERROR Salary must be a number!
+17:31:08,582 root INFO Choice 1 carried out successfully.
+17:32:22,965 root ERROR invalid literal for int() with base 10: 'dj'
+17:32:22,971 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 21, in main
+    salary = int(input("Please enter the counselor's salary: "))
+ValueError: invalid literal for int() with base 10: 'dj'
+invalid literal for int() with base 10: 'dj'
+17:33:13,453 root ERROR Salary must be a number!
+17:33:37,358 root INFO Choice 1 carried out successfully.
+17:36:18,891 root ERROR Invalid menu choice.
+17:36:21,823 root ERROR Invalid menu choice.
+17:36:23,508 root INFO Choice None carried out successfully.
+17:36:29,43 root ERROR Invalid menu choice.
+17:36:33,504 root ERROR Invalid menu choice.
+17:36:44,314 root INFO Choice None carried out successfully.
+17:37:05,943 root ERROR Salary must be a number!
+17:39:00,736 root ERROR Invalid menu choice.
+17:39:03,388 root INFO Choice None carried out successfully.
+17:39:29,96 root ERROR could not convert string to float: 'fgs'
+17:39:29,97 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 22, in main
+    if float(salary) != True or int(salary) != True:
+ValueError: could not convert string to float: 'fgs'
+could not convert string to float: 'fgs'
+17:39:45,259 root ERROR Salary must be a number!
+17:40:48,264 root ERROR Invalid menu choice.
+17:40:50,501 root ERROR Invalid menu choice.
+17:40:52,142 root ERROR Invalid menu choice.
+17:40:53,865 root ERROR Invalid menu choice.
+17:40:55,131 root INFO Choice None carried out successfully.
+17:41:09,820 root INFO Choice 1 carried out successfully.
+17:41:34,232 root INFO Choice 2 carried out successfully.
+17:42:53,731 root ERROR time data 'sdjfks' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 11, in __init__
+    self.date_of_birth = datetime.strptime(date_of_birth, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'sdjfks' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 42, in main
+    our_camp.add_camper(first_name, last_name, dob)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 55, in add_camper
+    new_camper = Camper(first_name, last_name, dob)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 13, in __init__
+    self.date_of_birth = datetime.strptime(date_of_birth, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'sdjfks' does not match format '%Y/%m/%d'
+
+17:43:05,920 root INFO Choice 3 carried out successfully.
+17:49:45,69 root ERROR Invalid menu choice.
+17:49:46,842 root ERROR Invalid menu choice.
+17:49:48,360 root INFO Choice None carried out successfully.
+17:50:23,187 root INFO Choice 1 carried out successfully.
+17:50:28,916 root ERROR Invalid menu choice.
+17:50:31,812 root INFO Choice None carried out successfully.
+17:50:53,700 root ERROR Invalid menu choice.
+17:50:53,700 root INFO Choice None carried out successfully.
+17:51:46,520 root INFO Choice 1 carried out successfully.
+17:52:52,28 root ERROR time data 'gdhsa' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 11, in __init__
+    self.date_of_birth = datetime.strptime(date_of_birth, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'gdhsa' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 42, in main
+    our_camp.add_camper(first_name, last_name, dob)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 55, in add_camper
+    new_camper = Camper(first_name, last_name, dob)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 13, in __init__
+    self.date_of_birth = datetime.strptime(date_of_birth, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'gdhsa' does not match format '%Y/%m/%d'
+
+17:53:13,563 root INFO Choice 3 carried out successfully.
+17:53:32,698 root ERROR time data 'dsg' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 11, in __init__
+    self.date_of_birth = datetime.strptime(date_of_birth, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'dsg' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 42, in main
+    our_camp.add_camper(first_name, last_name, dob)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 55, in add_camper
+    new_camper = Camper(first_name, last_name, dob)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 13, in __init__
+    self.date_of_birth = datetime.strptime(date_of_birth, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'dsg' does not match format '%Y/%m/%d'
+
+17:58:52,498 root ERROR Invalid menu choice.
+17:58:52,498 root INFO Choice None carried out successfully.
+17:59:06,628 root ERROR module 'datetime' has no attribute 'strptime'
+17:59:06,631 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+AttributeError: module 'datetime' has no attribute 'strptime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+AttributeError: module 'datetime' has no attribute 'strptime'
+module 'datetime' has no attribute 'strptime'
+18:02:48,269 root ERROR module 'datetime' has no attribute 'strptime'
+18:02:48,275 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+AttributeError: module 'datetime' has no attribute 'strptime'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+AttributeError: module 'datetime' has no attribute 'strptime'
+module 'datetime' has no attribute 'strptime'
+18:03:45,921 root ERROR time data 'sjf' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'sjf' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'sjf' does not match format '%Y/%m/%d'
+
+18:05:13,369 root ERROR Invalid menu choice.
+18:05:38,946 root ERROR time data 'sdgs' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'sdgs' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'sdgs' does not match format '%Y/%m/%d'
+
+18:06:13,513 root ERROR Invalid menu choice.
+18:06:20,312 root ERROR time data '860' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '860' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '860' does not match format '%Y/%m/%d'
+
+18:06:49,972 root ERROR time data 'hfd' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'hfd' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'hfd' does not match format '%Y/%m/%d'
+
+18:08:04,296 root ERROR time data 'yhr' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'yhr' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'yhr' does not match format '%Y/%m/%d'
+
+18:08:49,957 root ERROR time data 'hgfsj' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'hgfsj' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'hgfsj' does not match format '%Y/%m/%d'
+
+18:09:50,793 root ERROR time data 'fdh' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'fdh' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'fdh' does not match format '%Y/%m/%d'
+
+18:09:54,501 root ERROR time data 'fdh' does not match format '%Y/%m/%d'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'fdh' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 24, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'fdh' does not match format '%Y/%m/%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 10, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y-%m-%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2015dhf' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 30, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 44, in add_counselor
+    new_counselor = Counselor(first_name, last_name, salary, hire_date)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\counselor.py", line 12, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%Y/%m/%d").date()
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\Owner\anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2015dhf' does not match format '%Y/%m/%d'
+
+18:16:40,945 root ERROR local variable 've' referenced before assignment
+18:16:40,945 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 23, in main
+    float(salary)
+ValueError: could not convert string to float: 'hd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 27, in main
+    float(salary)
+ValueError: could not convert string to float: 'dfh'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 30, in main
+    logging.error(str(ve) + traceback.format_exc())
+UnboundLocalError: local variable 've' referenced before assignment
+local variable 've' referenced before assignment
+18:17:43,975 root ERROR Counselor dfh fdh not found. Could not add bunk.
+18:17:43,976 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 49, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 66, in add_bunk
+    raise Exception("Counselor {} {} not found. Could not add bunk.".format(counselor_fname, counselor_lname))
+Exception: Counselor dfh fdh not found. Could not add bunk.
+Counselor dfh fdh not found. Could not add bunk.
+18:19:20,472 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 49, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 66, in add_bunk
+    raise Exception("Counselor {} {} not found. Could not add bunk.".format(counselor_fname, counselor_lname))
+Exception: Counselor gs fh not found. Could not add bunk.
+Counselor gs fh not found. Could not add bunk.
+18:22:19,765 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 49, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 66, in add_bunk
+    raise Exception("Counselor {} {} not found. Could not add bunk.".format(counselor_fname, counselor_lname))
+Exception: Counselor jg bvhj not found. Could not add bunk.
+Counselor jg bvhj not found. Could not add bunk.
+18:22:49,212 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 33, in main
+    our_camp.add_counselor(first_name, last_name, salary, hire_date)
+UnboundLocalError: local variable 'hire_date' referenced before assignment
+local variable 'hire_date' referenced before assignment
+18:22:52,921 root ERROR Invalid menu choice.
+18:23:03,799 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 49, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 66, in add_bunk
+    raise Exception("Counselor {} {} not found. Could not add bunk.".format(counselor_fname, counselor_lname))
+Exception: Counselor Faigy Mandel not found. Could not add bunk.
+Counselor Faigy Mandel not found. Could not add bunk.
+18:26:17,372 root INFO Added
+18:26:44,297 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 50, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 66, in add_bunk
+    raise Exception("Counselor {} {} not found. Could not add bunk.".format(counselor_fname, counselor_lname))
+Exception: Counselor fdhj sjgf not found. Could not add bunk.
+Counselor fdhj sjgf not found. Could not add bunk.
+13:06:04,749 root INFO Counselor Added Successfully.
+13:06:16,671 root INFO Bunk Added Successfully.
+13:06:25,906 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 50, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 66, in add_bunk
+    raise Exception("Counselor {} {} not found. Could not add bunk.".format(counselor_fname, counselor_lname))
+Exception: Counselor k j not found. Could not add bunk.
+Counselor k j not found. Could not add bunk.
+13:10:13,789 root ERROR Invalid menu choice.
+13:10:18,225 root ERROR Invalid menu choice.
+13:15:03,847 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 50, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 66, in add_bunk
+    raise Exception("Counselor {} {} not found. Could not add bunk.".format(counselor_fname, counselor_lname))
+Exception: Counselor fd fd not found. Could not add bunk.
+Counselor fd fd not found. Could not add bunk.
+13:18:50,213 root INFO Camper Added Successfully.
+13:19:06,292 root INFO Allergy Added Successfully.
+13:20:35,823 root INFO Camper Added Successfully.
+13:20:44,79 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 83, in main
+    logging.error(str(ve) + traceback.format_exc())
+UnboundLocalError: local variable 've' referenced before assignment
+local variable 've' referenced before assignment
+13:21:57,630 root INFO Camper Added Successfully.
+13:22:05,210 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 83, in main
+    logging.error(str(ve) + traceback.format_exc())
+UnboundLocalError: local variable 've' referenced before assignment
+local variable 've' referenced before assignment
+13:24:52,423 root INFO Allergy Added Successfully.
+13:28:00,833 root INFO Camper Added Successfully.
+13:28:14,545 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 84, in main
+    logging.error(str(ve) + traceback.format_exc())
+UnboundLocalError: local variable 've' referenced before assignment
+local variable 've' referenced before assignment
+13:28:44,920 root ERROR Invalid menu choice.
+13:28:46,33 root ERROR Invalid menu choice.
+13:28:59,685 root INFO Camper Added Successfully.
+13:29:13,778 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 84, in main
+    logging.error(str(ve) + traceback.format_exc())
+UnboundLocalError: local variable 've' referenced before assignment
+local variable 've' referenced before assignment
+13:30:33,556 root INFO Camper Added Successfully.
+13:30:46,686 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 85, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 88, in main
+    print (str(ve))
+UnboundLocalError: local variable 've' referenced before assignment
+local variable 've' referenced before assignment
+13:32:33,72 root INFO Camper Added Successfully.
+13:32:40,484 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+Invalid Allergy
+13:38:42,487 root INFO Camper Added Successfully.
+13:38:48,891 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception ("Invalid Allergy")
+Exception: Invalid Allergy
+Invalid Allergy
+13:40:38,95 root INFO Camper Added Successfully.
+13:40:43,441 root INFO Allergy Added Successfully.
+13:42:10,960 root INFO Camper Added Successfully.
+13:42:21,265 root INFO Allergy Added Successfully.
+13:45:32,121 root INFO Camper Added Successfully.
+13:45:38,412 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception("Invalid Allergy")
+Exception: Invalid Allergy
+Invalid Allergy
+13:53:05,186 root INFO Camper Added Successfully.
+13:53:14,431 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception("Invalid Allergy")
+Exception: Invalid Allergy
+
+13:53:16,271 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 86, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception("Invalid Allergy")
+Exception: Invalid Allergy
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 89, in main
+    print (str(ve))
+UnboundLocalError: local variable 've' referenced before assignment
+local variable 've' referenced before assignment
+13:53:32,854 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\main.py", line 79, in main
+    our_camp.add_allergy(first_name, last_name, allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camp.py", line 105, in add_allergy
+    camper.add_allergy(allergy)
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Best Practices\Camp Assignment\camper.py", line 23, in add_allergy
+    raise Exception("Invalid Allergy")
+Exception: Invalid Allergy
+
+13:53:44,120 root INFO Allergy Added Successfully.
