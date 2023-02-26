@@ -1,0 +1,127 @@
+2023-02-19 11:00:02,433 root ERROR We don't sell mask.
+2023-02-19 11:04:51,96 root ERROR We don't sell Mask.
+2023-02-19 11:11:48,516 root ERROR We don't sell Mask.
+2023-02-19 11:15:45,504 root ERROR We don't sell Mask.
+2023-02-19 11:17:18,799 root ERROR We don't sell Mask.
+2023-02-19 11:31:35,214 root ERROR We don't sell Baker.
+2023-02-19 11:32:38,432 root ERROR We don't sell Baker.
+2023-02-19 11:33:57,799 root ERROR 'Fire Man'
+2023-02-19 11:36:31,371 root ERROR search() missing 1 required positional argument: 'string'
+2023-02-20 15:46:05,778 root ERROR We don't sell fire man.
+2023-02-20 15:46:47,269 root ERROR We don't sell Fir Aman.
+2023-02-20 15:46:57,809 root ERROR We don't sell Fire Man.
+2023-02-20 15:47:40,128 root INFO 3 Fire Man's were added to the shopping bag.
+2023-02-20 15:48:04,790 root INFO 3 Police Man's were added to the shopping bag.
+2023-02-20 15:48:53,613 root INFO 8 Baker's were added to the shopping bag.
+2023-02-20 15:53:09,371 root INFO 4 Baker's were added to the shopping bag.
+2023-02-20 15:53:20,941 root ERROR We don't sell Baker2.
+2023-02-20 15:55:00,212 root ERROR '3'
+2023-02-20 15:55:13,941 root INFO 3 Baker's were added to the shopping bag.
+2023-02-20 15:56:03,991 root INFO 9 Fire Man's were added to the shopping bag.
+2023-02-20 15:57:42,233 root INFO 2 Baker's were added to the shopping bag.
+2023-02-20 15:57:50,774 root ERROR 'Pen'
+2023-02-20 15:58:12,899 root ERROR Invalid answer!
+2023-02-20 16:00:44,359 root ERROR Invalid answer!
+2023-02-20 16:01:24,920 root INFO 3 Baker's were added to the shopping bag.
+2023-02-20 16:02:22,702 root ERROR We don't sell Fdsg.
+2023-02-20 16:02:40,915 root INFO 8 Baker's were added to the shopping bag.
+2023-02-20 16:03:13,601 root ERROR 
+2023-02-20 16:04:19,120 root ERROR 
+2023-02-20 16:04:37,636 root ERROR 
+2023-02-20 16:04:49,858 root ERROR Invalid answer!
+2023-02-20 16:06:06,448 root INFO 2 Fire Man's were added to the shopping bag.
+2023-02-20 16:06:19,833 root INFO 9 Baker's were added to the shopping bag.
+2023-02-20 16:07:40,21 root INFO 3 Baker's were added to the shopping bag.
+2023-02-20 16:07:50,540 root ERROR 
+2023-02-20 16:08:19,815 root ERROR 
+2023-02-20 16:08:52,722 root ERROR 
+2023-02-20 16:08:57,318 root ERROR 
+2023-02-20 16:09:00,101 root ERROR 
+2023-02-20 16:09:01,399 root ERROR 
+2023-02-20 16:12:34,678 root INFO 3 Baker's were added to the shopping bag.
+2023-02-20 16:13:02,416 root INFO 9 Fire Man's were added to the shopping bag.
+2023-02-20 16:15:37,408 root INFO 3 Fire Man's were added to the shopping bag.
+2023-02-20 16:15:57,512 root INFO 7 Kallah's were added to the shopping bag.
+2023-02-20 16:29:08,662 root INFO 3 Baker's were added to the shopping bag.
+2023-02-20 16:47:17,496 root ERROR 
+2023-02-20 16:47:21,185 root ERROR 
+2023-02-20 16:47:25,971 root ERROR 
+2023-02-20 16:47:27,300 root ERROR 
+2023-02-20 16:47:28,928 root ERROR 
+2023-02-20 16:47:39,630 root ERROR 
+2023-02-21 12:23:11,185 root INFO 54 Baker's were added to the shopping bag.
+2023-02-21 12:23:27,736 root INFO 3 Fire Man's were added to the shopping bag.
+2023-02-21 12:24:59,17 root ERROR 
+2023-02-21 12:25:08,119 root ERROR 
+2023-02-21 12:25:32,838 root INFO 4 Baker's were added to the shopping bag.
+2023-02-21 12:27:43,631 root INFO 3 Baker's were added to the shopping bag.
+2023-02-21 12:28:20,106 root INFO 3 Baker's were added to the shopping bag.
+2023-02-21 12:28:47,448 root INFO 3 Baker's were added to the shopping bag.
+2023-02-21 12:29:16,532 root INFO 3 Baker's were added to the shopping bag.
+2023-02-21 12:29:18,724 root ERROR 
+2023-02-21 12:29:18,725 root ERROR local variable 'order_bill' referenced before assignment
+2023-02-21 12:30:10,748 root INFO 4 Baker's were added to the shopping bag.
+2023-02-21 12:30:36,914 root INFO 3 Baker's were added to the shopping bag.
+2023-02-21 19:20:14,415 root INFO 4 Baker's were added to the shopping bag.
+2023-02-21 19:21:28,173 root ERROR 'Dsdf'
+2023-02-21 19:21:35,700 root ERROR 'Dsfs'
+2023-02-21 19:22:04,282 root INFO 3 Police Man's were added to the shopping bag.
+2023-02-21 19:36:07,295 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 29, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'baker'
+
+2023-02-21 19:39:28,469 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 29, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'Fire Man'
+
+2023-02-21 19:39:51,763 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 29, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'Poice Man'
+
+2023-02-21 19:40:41,573 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 29, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'Fire Man'
+
+2023-02-21 19:42:17,547 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 29, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'Fire Man'
+
+2023-02-21 19:44:04,255 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 29, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'Sd'
+
+2023-02-21 19:54:54,718 root INFO Payment ran successfully.
+2023-02-21 19:55:52,300 root INFO Payment ran successfully.
+2023-02-21 20:05:15,171 root INFO Payment ran successfully.
+2023-02-21 20:05:57,542 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 29, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'Baker 3'
+
+2023-02-21 20:06:24,291 root INFO Payment ran successfully.
+2023-02-21 20:08:45,26 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 31, in costume_order
+    try:
+KeyError: 'C:/Users/Owner/Anaconda3/Python.Exe "C:/Users/Owner/Documents/Course/A Faigy Mandelbaum Work/Advanced Python/Cw_2_Exception_Handling Copy 2.Py"'
+
+2023-02-21 20:08:52,661 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 31, in costume_order
+    try:
+KeyError: 'C:/Users/Owner/Anaconda3/Python.Exe "C:/Users/Owner/Documents/Course/A Faigy Mandelbaum Work/Advanced Python/Cw_2_Exception_Handling Copy 2.Py"'
+
+2023-02-21 20:11:03,177 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 32, in costume_order
+    def costume_order():
+KeyError: 'N'
+
+2023-02-21 20:11:59,203 root ERROR Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Course\A Faigy Mandelbaum Work\Advanced Python\CW_2_exception_handling copy 2.py", line 35, in costume_order
+    print(f"The price for the {order} is: ${costumes_dict[order]}.")
+KeyError: 'D'
+
